@@ -50,6 +50,7 @@ node_modules
 ##################
 # CUSTOM IGNORES #
 ##################
+*.sublime-project
+*.sublime-workspace
 app/
-server.json
-src/assets/__archive__
+src/assets/_assets/
