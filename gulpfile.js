@@ -40,7 +40,6 @@ var nunjucks = render.nunjucks.configure;
  * Compile Nunjucks to HTML
  */
 gulp.task('pages', function() {
-  var context = direque('./src/assets/data/');
   nunjucks(['src/templates/'], {watch: false});
   return gulp.src('./src/*.html')
     .pipe(plumber())
