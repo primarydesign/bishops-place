@@ -80,7 +80,7 @@ gulp.task('scripts', function() {
  * Compress and optimize images
  */
 gulp.task('images', function() {
-  return gulp.src('./assets/img/*.{jpg,jpeg,png,svg}')
+  return gulp.src('./src/assets/img/*.{jpg,jpeg,png,svg,gif}')
   .pipe(plumber())
   .pipe(imagemin())
   .pipe(gulp.dest('./app/assets/img/'))
@@ -97,12 +97,11 @@ gulp.task('build', ['pages', 'styles', 'scripts', 'images']);
  */
 gulp.task('serve', function() {
 	browser.init(serverOptions);
-	gulp.watch(['./src/scss/**/*.scss'], ['styles']);
+	gulp.watch(['./src/assets/scss/**/*.scss'], ['styles']);
 	gulp.watch(['./src/assets/scripts/**/*.js'], ['scripts']);
-	gulp.watch(['./assets/img/**/*.{jpg,jpeg,png,svg}'], ['images']);
+	gulp.watch(['./src/assets/img/**/*.{jpg,jpeg,png,svg,gif}'], ['images']);
 	gulp.watch(['./src/**/*.html','./src/assets/data/**/*'], ['pages']);
 });
-
 
 /**
  * PREPROCESS

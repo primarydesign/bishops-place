@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+}
+.navbar--nav {
+    //display: flex;
+    //justify-content: space-around;
+    //align-items: center;
+    font-size: 0;
+    
+}
+
+.nav--item {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    font-size: 1rem;
+    background: $white;
+}
+
+.nav--link {
+    color: $gray;
+    font-weight: $bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style: none;
+    @media (max-width: 960px) {
+        font-size: .75rem;
+    }
+}
+
+.brand--img {
+    background:url('../img/logo-bishops-place.svg') center center no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 120px;
+    padding: 15px 25px;
+}
