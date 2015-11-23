@@ -1,37 +1,49 @@
 .navbar {
-    position: fixed;
+  position: fixed;
+  top: 0;left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 .navbar--nav {
-    //display: flex;
-    //justify-content: space-around;
-    //align-items: center;
-    font-size: 0;
-    
+  text-align: center;
+  font-size: 0;
 }
-
+.navbar--nav:before {
+  content: '';
+  height: 40px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: -1;
+  background-color: white;
+}
 .nav--item {
-    display: inline-block;
-    padding: 20px;
-    vertical-align: middle;
-    font-size: 1rem;
-    background: $white;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  width: calc((100% - 180px) / 6);
+  background-color: white;
+  font-size: 1rem;
 }
-
 .nav--link {
-    color: $gray;
-    font-weight: $bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    list-style: none;
-    @media (max-width: 960px) {
-        font-size: .75rem;
-    }
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: .025rem;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 
-.brand--img {
-    background:url('../img/logo-bishops-place.svg') center center no-repeat;
-    background-size: contain;
-    height: 120px;
-    width: 120px;
-    padding: 15px 25px;
+.navbar--brand {
+  height: auto;
+  padding: 20px;
+  width: 180px;
+  background-color: white;
+  img {
+    height: auto;
+    width: 100%;
+  }
 }

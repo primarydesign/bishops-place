@@ -5,41 +5,51 @@
 		<title>Bishops Place</title>
 		<link rel="stylesheet" href="assets/css/index.css">
 	</head>
-	<body>
-		<main class="page-content">
-            {% include 'structures/navbar.html' %}
-			<section class="section" id="about">
-				<div class="section--wrapper">
-					{% include 'about.html' %}
-				</div>
-			</section>
-			<section class="section" id="floor_plans">
-				<div class="section--wrapper">
-					{% include 'floor-plans.html' %}
-				</div>
-			</section>
-			<section class="section" id="amenities">
-				<div class="section--wrapper">
-					{% include 'amenities.html' %}
-				</div>
-			</section>
-			<section class="section" id="gallery">
-				<div class="section--wrapper">
-					{% include 'gallery.html' %}
-				</div>
-			</section>
-			<section class="section" id="neighborhood">
-				<div class="section--wrapper">
-					{% include 'neighborhood.html' %}
-				</div>
-			</section>
-			<section class="section" id="contact">
-				<div class="section--wrapper">
-					{% include 'contact.html' %}
-				</div>
-			</section>
-		</main>
-		{% include 'structures/footer.html' %}
+	<body class="page">
+    <div class="page--wrapper constrained">
+      {% include 'structures/navbar.html' %}
+      <main class="page--content" role="content">
+        {% for section in ["about", "floor-plans", "amenities", "gallery", "neighborhood", "contact"] %}
+          <section class="section" id="{{ section }}">
+            <div class="section--wrapper">
+              {% include section + ".html" %}
+            </div>
+          </section>
+        {% endfor %}
+
+       <!--  <section class="section" id="about">
+          <div class="section--wrapper">
+            {% include 'about.html' %}
+          </div>
+        </section>
+        <section class="section" id="floor_plans">
+          <div class="section--wrapper">
+            {% include 'floor-plans.html' %}
+          </div>
+        </section>
+        <section class="section" id="amenities">
+          <div class="section--wrapper">
+            {% include 'amenities.html' %}
+          </div>
+        </section>
+        <section class="section" id="gallery">
+          <div class="section--wrapper">
+            {% include 'gallery.html' %}
+          </div>
+        </section>
+        <section class="section" id="neighborhood">
+          <div class="section--wrapper">
+            {% include 'neighborhood.html' %}
+          </div>
+        </section>
+        <section class="section" id="contact">
+          <div class="section--wrapper">
+            {% include 'contact.html' %}
+          </div>
+        </section> -->
+      </main>
+      {% include 'structures/footer.html' %}
+    </div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="assets/js/index.js"></script>
 	</body>

@@ -1,37 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,800);
 
-body {
-    background: url(../img/tile-bishops-b.gif);
-    background-size: 6.5%;
-    -webkit-font-smoothing: antialiased;
-    font-family: $fontstack;
-    color: $gray;
-}
-
 html {
-    max-width: 1160px;
-    margin: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: $fontstack;
+  color: $gray;
+}
+.page {
+  background-image: url(../img/tile-bishops-b.gif);
+  background-size: 75px;
+  background-repeat: repeat;
+}
+.page--wrapper {
+  margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
+}
+.page--content {
+  background-color: white;
+}
+.page--navbar {}
+.page--footer {}
+.constrained {
+  margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
 }
 
-.page-content {
-    background: $white;
-}
-
+.section {}
 .section--heading {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 30px 0;
-    font-size: 20px;
-    font-weight: $bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: $bold;
 }
-
-.welcome--paragraph {
-    text-align: center;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0 15px;
-    letter-spacing: 1px;
-    max-width: 800px;
-    margin: auto;
+.section--paragraph {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  max-width: 800px;
+  margin: auto;
 }
