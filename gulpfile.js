@@ -97,8 +97,8 @@ gulp.task('build', ['pages', 'styles', 'scripts', 'images']);
  */
 gulp.task('serve', function() {
 	browser.init(serverOptions);
-	gulp.watch(['./src/assets/scss/**/*.scss'], ['styles']);
-	gulp.watch(['./src/assets/scripts/**/*.js'], ['scripts']);
+	gulp.watch(['./src/assets/scss/**/*.{css,scss}'], ['styles']);
+	gulp.watch(['./src/assets/js/**/*.js'], ['scripts']);
 	gulp.watch(['./src/assets/img/**/*.{jpg,jpeg,png,svg,gif}'], ['images']);
 	gulp.watch(['./src/**/*.html','./src/assets/data/**/*'], ['pages']);
 });

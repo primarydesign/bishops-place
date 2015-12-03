@@ -1,3 +1,43 @@
-.welcome--slider {
-    @include backImage('../img/bishops-place-albany-avenue-apartment-kitchen-and-living-room.jpg');
+.carousel {
+  height: 100vw;
+  max-height: 600px;
+}
+.carousel--slide {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* VENDOR OVERRIDES */
+.owl-wrapper-outer {
+  height: 100%;
+}
+.owl-wrapper {
+  height: 100%;
+}
+.owl-item {
+  height: 100%;
+}
+
+/* CONTROLS THEME */
+.carousel .owl-controls {
+  bottom: 15px;left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.carousel .owl-page {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  width: 14px;
+  border: 1px solid rgba(#fff, 0.65);
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &.active, &:hover {
+    background-color: #fff;
+  }
 }
