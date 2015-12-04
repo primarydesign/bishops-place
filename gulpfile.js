@@ -45,7 +45,7 @@ gulp.task('pages', function() {
     .pipe(plumber())
     .pipe(render())
     .pipe(gulp.dest('./app/'))
-    .pipe(browser.stream({once:true}));
+    .pipe(browser.stream());
 });
 /**
  * STYLES
@@ -59,7 +59,7 @@ gulp.task('styles', function() {
     .pipe(preprocess())
     .pipe(cssmin())
     .pipe(gulp.dest('./app/assets/css/'))
-    .pipe(browser.stream({once:true}));
+    .pipe(browser.stream());
 });
 /**
  * SCRIPTS
@@ -73,7 +73,7 @@ gulp.task('scripts', function() {
   .pipe(uglify())
   .pipe(souremaps.write())
   .pipe(gulp.dest('./app/assets/js/'))
-  .pipe(browser.stream({once:true}));
+  .pipe(browser.stream());
 });
 /**
  * IMAGES
@@ -84,7 +84,7 @@ gulp.task('images', function() {
   .pipe(plumber())
   .pipe(imagemin())
   .pipe(gulp.dest('./app/assets/img/'))
-  .pipe(browser.stream({once:true}));
+  .pipe(browser.stream());
 });
 /**
  * BUILD
