@@ -46,38 +46,66 @@
 .floorplans--table {}
 
 .table {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
   border: 1px solid $gray;
   border-left: none;
   border-right: none;
 }
-.table--head {}
 .table--row {
+  height: auto;
+  position: relative;
   width: 100%;
-  font-style: 0;
-  & > * {
-    font-size: 1rem;
+  font-size: 0;
+}
+.table--row.row_head {
+  border-bottom: 1px solid $gray;
+}
+.table--row.row_body {
+  cursor: pointer;
+  &:hover {
+    background-color: $blue;
+    color: $white;
+    &:before {
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;right: 100%;
+      width: 8px;
+      background-color: $blue;
+    }
   }
 }
-.table--header {
+.table--cell {
   display: inline-block;
+  padding: 6px 8px;
+  text-transform: uppercase;
+  &:first-of-type {
+    padding-left: 0;
+  }
 }
-.table--cell{
-  display: inline-block;
+.table--cell.cell_head {
+  font-size: 1.15rem;
+  font-weight: 600;
 }
-
+.table--cell.cell_body {
+  font-size: 0.9rem;
+}
 .column {
   border-right: 1px solid $gray;
+  &:last-of-type { border-right: none; }
 }
 .col-1 {
-  width: calc(((100% - ((100%/4)*0.6))/3);
+  width: calc(((100% - ((100%/4)*0.7))/3);
 }
 .col-2 {
-  width: calc(((100% - ((100%/4)*0.6))/3);
+  width: calc(((100% - ((100%/4)*0.7))/3);
 }
 .col-3 {
-  width: calc(((100% - ((100%/4)*0.6))/3);
+  width: calc(((100% - ((100%/4)*0.7))/3);
 }
 .col-4 {
-  width: calc((100%/4)*0.6);
+  width: calc((100%/4)*0.7);
 }
+
+

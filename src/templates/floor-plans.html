@@ -7,18 +7,18 @@
     <label class="floorplansTable--option"><span>Two Bedroom</span><input type="checkbox" name="floorplans" value="2br"></label>
   </form>
   <div class="floorplansTable--table table">
-    <div class="table--row table--head">
-      <div class="table--header column col-1">Residence</div>
-      <div class="table--header column col-2">Bedrooms</div>
-      <div class="table--header column col-3">Bathroom</div>
-      <div class="table--header column col-4">Square Feet</div>
+    <div class="table--row row_head">
+      <div class="table--cell cell_head column col-1">Residence</div>
+      <div class="table--cell cell_head column col-2">Bedrooms</div>
+      <div class="table--cell cell_head column col-3">Bathroom</div>
+      <div class="table--cell cell_head column col-4">Square Feet</div>
     </div>
     {% for appt in apartments %}
-    <div class="table--row" data-apartment-id="">
-      <div class="table--cell column col-1">{{ appt.residence }}</div>
-      <div class="table--cell column col-2">{{ appt.bedrooms | beword }}</div>
-      <div class="table--cell column col-3">{{ appt.bathrooms | beword }}</div>
-      <div class="table--cell column col-4">{{ appt.squareft }}</div>
+    <div class="table--row row_body" data-apartment-id="">
+      <div class="table--cell cell_body column col-1">{{ appt.residence }}</div>
+      <div class="table--cell cell_body column col-2">{{ appt.bedrooms | beword }}</div>
+      <div class="table--cell cell_body column col-3">{{ appt.bathrooms | beword }}</div>
+      <div class="table--cell cell_body column col-4">{{ appt.squareft }}</div>
     </div>
     {% endfor %}
   </div>
