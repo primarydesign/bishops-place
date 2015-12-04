@@ -24,6 +24,7 @@
     text-align: center;
     width: 100%;
     font-size: 1.4em;
+    font-weight: 600;
     text-transform: uppercase;
     &:hover, &.is-active {
       color: $white;
@@ -90,6 +91,7 @@
 }
 .table--cell.cell_body {
   font-size: 0.9rem;
+  font-weight: 500;
 }
 .column {
   border-right: 1px solid $gray;
