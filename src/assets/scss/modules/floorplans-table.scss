@@ -1,5 +1,6 @@
 .floorplansTable {
   padding: 0 25px;
+  margin-bottom: 200px;
 }
 .floorplansTable--options {
   height: 80px;
@@ -40,4 +41,43 @@
   &:last-of-type {
     padding-right: 0;
   }
+}
+
+.floorplans--table {}
+
+.table {
+  padding-bottom: 10px;
+  border: 1px solid $gray;
+  border-left: none;
+  border-right: none;
+}
+.table--head {}
+.table--row {
+  width: 100%;
+  font-style: 0;
+  & > * {
+    font-size: 1rem;
+  }
+}
+.table--header {
+  display: inline-block;
+}
+.table--cell{
+  display: inline-block;
+}
+
+.column {
+  border-right: 1px solid $gray;
+}
+.col-1 {
+  width: calc(((100% - ((100%/4)*0.6))/3);
+}
+.col-2 {
+  width: calc(((100% - ((100%/4)*0.6))/3);
+}
+.col-3 {
+  width: calc(((100% - ((100%/4)*0.6))/3);
+}
+.col-4 {
+  width: calc((100%/4)*0.6);
 }

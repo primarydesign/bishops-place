@@ -1,0 +1,44 @@
+[
+  {
+    "residence": "101",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "squareft": 498
+  },
+  {
+    "residence": "103",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "squareft": 502
+  },
+  {
+    "residence": "114",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "squareft": 510
+  },
+  {
+    "residence": "212",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "squareft": 512
+  },
+  {
+    "residence": "315",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 750
+  },
+  {
+    "residence": "318",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "squareft": 753
+  },
+  {
+    "residence": "320",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "squareft": 760
+  }
+]

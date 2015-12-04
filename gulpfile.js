@@ -40,9 +40,11 @@ var nunjucks = render.nunjucks.configure;
  * Compile Nunjucks to HTML
  */
 gulp.task('pages', function() {
-  nunjucks(['src/templates/'], {watch: false});
+  var env = nunjucks(['src/templates/'], {watch: false});
+  env.addFilter('beword', Beword);
   return gulp.src('./src/*.html')
     .pipe(plumber())
+    .pipe(data(add_data()))
     .pipe(render())
     .pipe(gulp.dest('./app/'))
     .pipe(browser.stream());
@@ -131,4 +133,23 @@ var serverOptions = {
     ? ['google chrom', 'firefox', 'safari']
     : ['google chrome'],
   notify: false
+}
+function add_data(file) {
+  return direque('./src/assets/data/');
+}
+function Beword(input) {
+  switch (input) {
+    case 0:
+      return "studio";
+      break;
+    case 1:
+      return "one";
+      break;
+    case 2:
+      return "two";
+      break;
+    default:
+      return "none";
+      break;
+  }
 }
