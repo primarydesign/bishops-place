@@ -16,6 +16,10 @@
   overflow: hidden;
   padding-bottom: calc(100% * (1.7896/3.1021));
   position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $sans-serif;
   &:hover {
     .amenity-card__caption {
       display: block;
@@ -24,13 +28,16 @@
 }
 .amenity-card__title {
   display: block;
-  padding: 5px 10px;
+  padding: 6px 10px;
   position: absolute;
   top: 0;left: 0;
   width: 100%;
   background-color: rgba($blue, 0.8);
   color: $white;
-  font-size: 1.1em;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
 .amenity-card__caption {
   @extend %valign-text;
@@ -44,7 +51,9 @@
   p, span {
     width: 80%;
     color: $white;
-    font-size: 0.95em;
-    letter-spacing: 0.5px;
+    font-size: 0.90em;
+    font-weight: 500;
+    letter-spacing: 0.50px;
+    line-height: 1.5em;
   }
 }
