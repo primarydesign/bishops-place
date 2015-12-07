@@ -21,8 +21,11 @@
   background-size: cover;
   font-family: $sans-serif;
   &:hover {
+    .amenity-card__title {
+      opacity: 0;
+    }
     .amenity-card__caption {
-      display: block;
+      transform: translateY(0);
     }
   }
 }
@@ -38,15 +41,19 @@
   font-weight: 600;
   letter-spacing: 0.6px;
   text-transform: uppercase;
+  transition: opacity 200ms ease;
 }
 .amenity-card__caption {
   @extend %valign-text;
   background-color: rgba($blue, 0.9);
-  display: none;
+  display: block;
   height: 100%;
   position: absolute;
   top: 0;left: 0;
+  transform: translateY(-100%);
+  transition: transform 300ms ease-in-out;
   width: 100%;
+  opacity: 1;
   text-align: center;
   p, span {
     width: 80%;
