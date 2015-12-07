@@ -1,0 +1,17 @@
+<figure class="section--hero hero hero_simplex has-caption" style="background-image: url('assets/img/hero-exterior_rendering.jpg');">
+  <figcaption class="hero--caption" id="amenities-hero-caption">It's all within your reach.</figcaption>
+</figure>
+<div class="amenities-gallery gallery">
+  <ul class="gallery__track">
+    {% for amenity in amenities %}
+      <li class="gallery__item">
+        <div class="amenity-card" style="background-image: url('assets/img/amenity-{{ amenity.title | filename }}.jpg');">
+          <span class="amenity-card__title">{{ amenity.title }}</span>
+          <div class="amenity-card__caption"><p>{{ amenity.caption }}</p></div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<h2 class="section--heading">Luxe Amenities</h2>
+<p class="section--paragraph">Phasellus at rhoncus ipsum, nec consectetur ipsum. Aliquam erat volutpat. Praesent at tellus quam. Suspendisse potenti. Maecenas ornare, ante ac placerat lacinia, mi purus pulvinar lacus, quis eleifend neque leo vel metus. Sed purus dolor, tincidunt id fermentum sit amet, tincidunt in mauris.</p>

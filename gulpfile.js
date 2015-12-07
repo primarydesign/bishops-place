@@ -42,6 +42,7 @@ var nunjucks = render.nunjucks.configure;
 gulp.task('pages', function() {
   var env = nunjucks(['src/templates/'], {watch: false});
   env.addFilter('beword', Beword);
+  env.addFilter('filename', Filename);
   return gulp.src('./src/*.html')
     .pipe(plumber())
     .pipe(data(add_data()))
@@ -152,4 +153,7 @@ function Beword(input) {
       return "none";
       break;
   }
+}
+function Filename(string) {
+  return string.replace(' ', '_').toLowerCase();
 }
