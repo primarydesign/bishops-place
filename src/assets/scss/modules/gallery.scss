@@ -1,0 +1,21 @@
+.gallery {}
+.gallery__track {
+  width: 100%;
+  font-size: 0;
+}
+.gallery__item {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.gallery--biplex {
+  .gallery__item {
+    height: 0;
+    width: 50%;
+    padding-bottom: calc(50% * (3.360/6.103));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
