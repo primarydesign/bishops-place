@@ -1,0 +1,70 @@
+.neighborhood-map {
+  display: block;
+  height: 60vh;
+  max-height: 600px;
+  position: relative;
+  width: 100%;
+}
+.neighborhood-map__canvas {
+  height: 100%;
+  width: 100%;
+  background: salmon;
+}
+.neighborhood-map__interface {
+  padding: 25px 25px;
+  padding-left: 0;
+  position: absolute;
+  top: 50%;left: 0;
+  width: auto;
+  transform: translateY(-50%);
+  background-image: url(../img/tile-bishops-b.gif);
+  background-size: 55px;
+  background-repeat: repeat;
+}
+.neighborhood-map__options {
+  padding: 20px 50px;
+  padding-left: 0;
+  background-color: rgba(#000, 0.8);
+}
+.neighborhood-map__option {
+  display: block;
+  padding: 6px 5px;
+  padding-left: 35px;
+  border-bottom: 1px solid rgba(#fff, 0.25);
+  &.is-checked, &:hover {
+    color: $blue;
+  }
+  &:last-child {
+    border-bottom: none;
+  }
+  input { display: none; }
+  span {
+    margin-left: 20px;
+    line-height: 25px;
+    vertical-align: middle;
+  }
+}
+.neighborhood-map__option:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  position: relative;
+  vertical-align: middle;
+  width: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.neighborhood-map__option:after {
+  // conte
+}
+
+#option-all:before { background-image: url('../img/icon-show_all.svg'); }
+#option-restaurants:before { background-image: url('../img/icon-restaurants.svg'); }
+#option-entertainment:before { background-image: url('../img/icon-entertainment.svg'); }
+#option-precreation:before { background-image: url('../img/icon-recreation.svg'); }
+#option-shopping:before { background-image: url('../img/icon-shopping.svg'); }
+#option-salons:before { background-image: url('../img/icon-salons.svg'); }
+#option-institutions:before { background-image: url('../img/icon-institutions.svg'); }
+#option-groceries:before { background-image: url('../img/icon-groceries.svg'); }
+#option-services:before { background-image: url('../img/icon-services.svg'); }
