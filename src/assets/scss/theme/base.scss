@@ -3,6 +3,9 @@ html {
   font-family: $sans-serif;
   color: $gray;
 }
+body.is-locked {
+  overflow: hidden;
+}
 
 /*============================
     Basic Page Layouting

@@ -1,44 +1,44 @@
 [
   {
     "residence": "101",
-    "bedrooms": 0,
-    "bathrooms": 1,
-    "squareft": 498
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareft": 1188
   },
   {
     "residence": "103",
-    "bedrooms": 0,
+    "bedrooms": 1,
     "bathrooms": 1,
-    "squareft": 502
+    "squareft": 787
   },
   {
     "residence": "114",
-    "bedrooms": 0,
+    "bedrooms": 1,
     "bathrooms": 1,
-    "squareft": 510
+    "squareft": 872
   },
   {
     "residence": "212",
-    "bedrooms": 0,
-    "bathrooms": 1,
-    "squareft": 512
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareft": 1026
   },
   {
     "residence": "315",
-    "bedrooms": 1,
+    "bedrooms": 0,
     "bathrooms": 1,
-    "squareft": 750
+    "squareft": 488
   },
   {
     "residence": "318",
     "bedrooms": 1,
-    "bathrooms": 2,
-    "squareft": 753
+    "bathrooms": 1,
+    "squareft": 684
   },
   {
     "residence": "320",
     "bedrooms": 1,
-    "bathrooms": 2,
-    "squareft": 760
+    "bathrooms": 1,
+    "squareft": 819
   }
 ]

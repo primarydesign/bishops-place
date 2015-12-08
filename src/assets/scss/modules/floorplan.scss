@@ -1,0 +1,115 @@
+$border-gray: 1px solid $gray;
+.floorplan-modal {
+  @extend %valign-content;
+  display: block;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;left: 0;
+  width: 100vw;
+  z-index: 50;
+  background-color: rgba(#ffffff, 0.5);
+  text-align: center;
+}
+.floorplan-modal.is-active {
+  display: block;
+}
+.floorplan-modal.not-active {
+  display: none;
+}
+.floorplan-modal__content {
+  @extend %bishops-pattern;
+  height: auto;
+  max-width: 800px;
+  padding: 30px;
+  width: 100%;
+  font-size: 1rem;
+}
+.floorplan-modal__inner {
+  padding: 60px 0 25px;
+  position: relative;
+  background-color: #ffffff;
+}
+.floorplan-modal__details {
+  padding: 10px 15%;
+  text-align: center;
+  border-top: $border-gray;
+  border-bottom: $border-gray;
+  font-size: 0;
+  @media (min-width: 600px) {
+    padding: 10px 0;
+  }
+}
+.floorplan-modal__detail {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba($gray, 0.6);
+  font-size: 1rem;
+  &:last-child {
+    border-bottom: none;
+    border-right: none;
+  }
+  span {
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  @media (min-width: 600px) {
+    display: inline-block;
+    padding: 10px 30px;
+    border-bottom: none;
+    border-right: 1px solid rgba($gray, 0.6);
+  }
+}
+.floorplan-modal__figure {
+  padding: 60px 20px;
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+  }
+}
+.floorplan-modal__download {
+  cursor: pointer;
+  display: table;
+  margin: 10px auto 30px;
+  padding: 8px 30px;
+  width: auto;
+  border: 1px solid $blue;
+  color: $blue;
+  font-weight: 600;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $blue;
+    color: #ffffff;
+  }
+}
+.floorplan-modal__disclaimer {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 70%;
+  font-size: 0.85em;
+  text-align: center;
+}
+.floorplan-modal__close {
+  $size: 25px;
+  cursor: pointer;
+  height: $size;
+  position: absolute;
+  top: 10px;right: 10px;
+  width: $size;
+  border: 1px solid $blue;
+  color: $blue;
+  font-size: 0.9em;
+  font-weight: 800;
+  line-height: $size;
+  text-align: center;
+  &:hover {
+    background-color: $blue;
+    color: #ffffff;
+  }
+}
+.floorplan-modal__icons {}
+.floorplan-modal__icon {}
