@@ -18,8 +18,22 @@
           </section>
         {% endfor %}
       </main>
-      {% include 'structures/footer.html' %}
+      {# include 'structures/footer.html' #}
     </div>
+    <script type="text/javascript">
+      window.__neighborhoodAttractions__ = [
+        {% for attr in attractions %}
+          {
+            name: "{{ attr.name }}",
+            address: "{{ attr.address }}",
+            city: "{{ attr.city }}",
+            state: "{{ attr.state }}",
+            url: "{{ attr.url }}",
+            categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}]
+          }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ];
+    </script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="assets/js/index.js"></script>
 	</body>
