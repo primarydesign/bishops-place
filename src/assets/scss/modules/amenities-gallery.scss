@@ -1,14 +1,23 @@
 .amenities-gallery {}
 .gallery__track {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   font-size: 0;
 }
 .gallery__item {
   display: inline-block;
   font-size: 1rem;
-  min-width: 100px;
-  width: calc((100%/4) - 6px);
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: 100%;
+  @media (min-width: 600px) {
+    width: calc((100%/2) - 6px);
+  }
+  @media (min-width: 1000px) {
+    margin-bottom: 0;
+    width: calc((100%/4) - 6px);
+  }
 }
 
 .amenity-card {
