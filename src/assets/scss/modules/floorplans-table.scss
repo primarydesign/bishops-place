@@ -11,23 +11,33 @@
   display: inline-block;
   height: 100%;
   padding: 0 7px;
+  vertical-align: top;
   width: calc(100%/3);
   font-size: 1rem;
   input {
     display: none;
   }
-  span {
-    @extend %valign-text;
+  div {
+    @extend %valign-content;
+    cursor: pointer;
     display: block;
     height: 100%;
-    text-align: center;
+    vertical-align: top;
     width: 100%;
-    font-size: 1.4em;
+    text-align: center;
+  }
+  input:checked ~ div {
+    background: $blue;
+    color: #ffffff;
+  }
+  span {
+    font-size: 1.00rem;
     font-weight: 600;
+    line-height: 1.25em;
     text-transform: uppercase;
-    &:hover, &.is-active {
-      color: $white;
-      background: $blue;
+    @media (min-width: 650px) {
+      font-size: 1.4rem;
+      br { display: none; }
     }
   }
   &:first-of-type {
@@ -85,8 +95,18 @@
   }
 }
 .table--cell.cell_head {
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   font-weight: 600;
+  i {
+    display: none;
+    font-style: normal;
+  }
+  @media (min-width: 710px) {
+    i { display: inline; }
+  }
+  @media (min-width: 850px) {
+    font-size: 1.10rem;
+  }
 }
 .table--cell.cell_body {
   font-size: 0.9rem;

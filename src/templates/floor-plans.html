@@ -2,16 +2,16 @@
 <figure class="section--hero hero_simplex" style="background-image: url('assets/img/hero-kitchen_expose.jpg');"></figure>
 <div class="floorplansTable">
   <form class="floorplansTable--options">
-    <label class="floorplansTable--option"><span>Studio</span><input type="checkbox" name="floorplans" value="0br"></label>
-    <label class="floorplansTable--option"><span>One Bedroom</span><input type="checkbox" name="floorplans" value="1br"></label>
-    <label class="floorplansTable--option"><span>Two Bedroom</span><input type="checkbox" name="floorplans" value="2br"></label>
+    <label class="floorplansTable--option"><input type="checkbox" name="floorplans" value="0br"><div><span>Studio</span></div></label>
+    <label class="floorplansTable--option"><input type="checkbox" name="floorplans" value="1br"><div><span>One </br>Bedroom</span></div></label>
+    <label class="floorplansTable--option"><input type="checkbox" name="floorplans" value="2br"><div><span>Two </br>Bedroom</span></div></label>
   </form>
   <div class="floorplansTable--table table">
     <div class="table--row row_head">
       <div class="table--cell cell_head column col-1">Residence</div>
       <div class="table--cell cell_head column col-2">Bedrooms</div>
       <div class="table--cell cell_head column col-3">Bathroom</div>
-      <div class="table--cell cell_head column col-4">Square Feet</div>
+      <div class="table--cell cell_head column col-4">Sq<i>uare</i> F<i>ee</i>t</div>
     </div>
     {% for appt in apartments %}
     <div class="table--row row_body" data-apartment-id="">
