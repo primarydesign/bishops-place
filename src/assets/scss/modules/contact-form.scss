@@ -9,15 +9,18 @@
   height: 100%;
   width: 100%;
 }
+.contact-form__heading {
+  margin-bottom: 30px;
+  color: rgba($gray, 0.9);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 .contact-form__field {
   display: block;
   height: auto;
   padding-bottom: 20px;
 }
-.contact-form__submit {
-
-}
-.contact-form__submit-wrapper {}
 .contact-form__submit {
   display: block;
   height: 40px;
@@ -33,7 +36,16 @@
 }
 
 .field {}
-.field.has-error {}
+.field[data-error] {
+  &:after {
+    content: attr(data-error);
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    color: rgba(red, 0.75);
+    font-size: 0.8em;
+  }
+}
 .field__label {
   display: block;
   margin-bottom: 5px;
