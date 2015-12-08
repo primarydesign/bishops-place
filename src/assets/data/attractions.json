@@ -5,7 +5,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.themdc.com/recreation-areas/reservoirs",
-    "categories": ["outdoor"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Westmoor Park",
@@ -13,7 +13,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.westmoorpark.org/",
-    "categories": ["outdoor"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Elizabeth Park",
@@ -21,7 +21,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://elizabethparkct.org/",
-    "categories": ["outdoor"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Wampanoag Country Club",
@@ -29,7 +29,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://www.wampanoagcc.com/",
-    "categories": ["social clubs"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Jewish Community Center",
@@ -37,7 +37,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.mandelljcc.org/",
-    "categories": ["social clubs"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Hartford Golf Club",
@@ -45,7 +45,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.hartfordgolfclub.org/Club/Scripts/Home/home.asp",
-    "categories": ["social clubs"]
+    "categories": ["parks/recreation"]
   },
   {
     "name": "Tumblebrook Country Club",
@@ -53,7 +53,31 @@
     "city": "Bloomfield",
     "state": "CT",
     "url": "http://tumblebrookcc.clubsoftlinks.com/home",
-    "categories": ["social clubs"]
+    "categories": ["parks/recreation"]
+  },
+  {
+    "name": "Anytime Fitness",
+    "address": "340 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "http://anytimefitness.com/gyms/2136/terms-of-use",
+    "categories": ["parks/recreation"]
+  },
+  {
+    "name": "West Hartford Yoga",
+    "address": "23 Brook Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "http://www.westhartfordyoga.com/",
+    "categories": ["parks/recreation"]
+  },
+  {
+    "name": "New York Sports Club",
+    "address": "65 Memorial Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "https://www.mysportsclubs.com/studio/New%20York/West%20Hartford",
+    "categories": ["parks/recreation"]
   },
   {
     "name": "University of St. Joseph",
@@ -61,7 +85,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.usj.edu/",
-    "categories": ["education"]
+    "categories": ["institutions"]
   },
   {
     "name": "Renbrook School",
@@ -69,7 +93,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.renbrook.org/",
-    "categories": ["education"]
+    "categories": ["institutions"]
   },
   {
     "name": "Kingswood-Oxford",
@@ -77,7 +101,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.kingswoodoxford.org/",
-    "categories": ["education"]
+    "categories": ["institutions"]
   },
   {
     "name": "University of Hartford",
@@ -85,7 +109,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.hartford.edu/",
-    "categories": ["education"]
+    "categories": ["institutions"]
   },
   {
     "name": "West Hartford Public Library",
@@ -93,15 +117,39 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.westhartfordlibrary.org/",
-    "categories": ["bookstore/library"]
+    "categories": ["institutions"]
   },
   {
-    "name": "Barnes and Noble",
-    "address": "60 Isham Road",
+    "name": "Bishops Corner Medical Offfices",
+    "address": "2523 Albany Ave",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://stores.barnesandnoble.com/store/2279?view=",
-    "categories": ["bookstore/library"]
+    "url": "http://www.hartfordmedicalgroup.com/locations-pc-wh-bishops.php",
+    "categories": ["institutions"]
+  },
+  {
+    "name": "Hartford Hospital Medical Group",
+    "address": "336 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "http://www.hartfordmedicalgroup.com/",
+    "categories": ["institutions"]
+  },
+  {
+    "name": "Uconn Medical Center",
+    "address": "263 Farmington Ave",
+    "city": "Farmington",
+    "state": "CT",
+    "url": "http://www.uchc.edu/",
+    "categories": ["institutions"]
+  },
+  {
+    "name": "St. Francis Hospital",
+    "address": "114 Woodland Street",
+    "city": "Hartford",
+    "state": "CT",
+    "url": "http://www.stfranciscare.org/",
+    "categories": ["institutions"]
   },
   {
     "name": "Crown Supermarket",
@@ -109,7 +157,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.thecrownmarket.com/",
-    "categories": ["supermarkets"]
+    "categories": ["groceries"]
   },
   {
     "name": "Whole Foods",
@@ -117,7 +165,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.wholefoodsmarket.com/stores/westhartford",
-    "categories": ["supermarkets"]
+    "categories": ["groceries"]
   },
   {
     "name": "Big Y",
@@ -125,7 +173,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.bigy.com/Locations/locationinfo/~18",
-    "categories": ["supermarkets"]
+    "categories": ["groceries"]
   },
   {
     "name": "Wal-Mart Neighborhood Market",
@@ -133,7 +181,15 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.walmart.com/store/2303/whats-new",
-    "categories": ["supermarkets"]
+    "categories": ["groceries"]
+  },
+  {
+    "name": "Walgreens",
+    "address": "324 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "http://www.walgreens.com/locator/walgreens-324+n+main+st-west+hartford-ct-06117/id=1826",
+    "categories": ["groceries"]
   },
   {
     "name": "Five Guys",
@@ -293,7 +349,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://esquirecleanersct.com/",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "Battistons",
@@ -301,15 +357,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.battistons.com/",
-    "categories": ["convenience"]
-  },
-  {
-    "name": "Pet Supplies Plus",
-    "address": "2480 Albany Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.petsuppliesplus.com/WESTHARTFORD9020",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "US Post Office",
@@ -317,7 +365,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": 0,
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "TD Bank",
@@ -325,7 +373,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.tdbank.com/",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "People's United Bank",
@@ -333,7 +381,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://www.peoples.com/portal/site/peoples/",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "Santander Bank",
@@ -341,15 +389,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://www.santanderbank.com/us/",
-    "categories": ["convenience"]
-  },
-  {
-    "name": "Walgreens",
-    "address": "324 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.walgreens.com/locator/walgreens-324+n+main+st-west+hartford-ct-06117/id=1826",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "UPS store",
@@ -357,7 +397,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://westhartford-ct-1915.theupsstorelocal.com/",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "Webster Bank",
@@ -365,7 +405,7 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://public.websteronline.com/personal",
-    "categories": ["convenience"]
+    "categories": ["services"]
   },
   {
     "name": "Bank of America ATM",
@@ -373,10 +413,26 @@
     "city": "West Hartford",
     "state": "CT",
     "url": "https://www.bankofamerica.com/online-banking/bank-atm-locations.go",
-    "categories": ["convenience"]
+    "categories": ["services"]
+  },
+  {
+    "name": "Massage Envy",
+    "address": "333 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "url": "http://www.massageenvy.com/clinics/CT/West-Hartford.aspx",
+    "categories": ["services"]
   },
   {
     "name": "Bushnell Performing Arts Center",
+    "address": "166 Capitol Ave",
+    "city": "Hartford",
+    "state": "CT",
+    "url": "http://www.bushnell.org/",
+    "categories": ["entertainment"]
+  },
+  {
+    "name": "Hartford Stage",
     "address": "50 Church Street",
     "city": "Hartford",
     "state": "CT",
@@ -384,7 +440,7 @@
     "categories": ["entertainment"]
   },
   {
-    "name": "Hartford Stage",
+    "name": "Wadsworth Antheneum",
     "address": "600 Main Street",
     "city": "Hartford",
     "state": "CT",
@@ -392,24 +448,16 @@
     "categories": ["entertainment"]
   },
   {
-    "name": "Wadsworth Antheneum",
-    "address": "244 Park Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": 0,
-    "categories": ["entertainment"]
-  },
-  {
     "name": "Playhouse on Park",
-    "address": "42 South Main Streeet",
+    "address": "244 Park Road",
     "city": "West Hartford",
     "state": "CT",
     "url": "http://playhouseonpark.org/",
     "categories": ["entertainment"]
   },
   {
-    "name": "Bow Tie Cinema",
-    "address": "42 S. Main Street",
+    "name": "Criterion Theaters at Blue Back Square",
+    "address": "42 South Main Streeet",
     "city": "West Hartford",
     "state": "CT",
     "url": "http://www.bowtiecinemas.com/locations/criterion-cinemas-blue-back-square/",
@@ -448,7 +496,7 @@
     "categories": ["shopping"]
   },
   {
-    "name": "Blue Back Square (this is where Barnes & Noble is)",
+    "name": "Blue Back Square",
     "address": "60 Isham Road",
     "city": "West Hartford",
     "state": "CT",
@@ -456,67 +504,11 @@
     "categories": ["shopping"]
   },
   {
-    "name": "Bishops Corner Medical Offfices",
-    "address": "2523 Albany Ave",
+    "name": "Pet Supplies Plus",
+    "address": "2480 Albany Ave",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.hartfordmedicalgroup.com/locations-pc-wh-bishops.php",
-    "categories": ["medical"]
-  },
-  {
-    "name": "Hartford Hospital Medical Group",
-    "address": "336 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.hartfordmedicalgroup.com/",
-    "categories": ["medical"]
-  },
-  {
-    "name": "Uconn Medical Center",
-    "address": "263 Farmington Ave",
-    "city": "Farmington",
-    "state": "CT",
-    "url": "http://www.uchc.edu/",
-    "categories": ["medical"]
-  },
-  {
-    "name": "St. Francis Hospital",
-    "address": "114 Woodland Street",
-    "city": "Hartford",
-    "state": "CT",
-    "url": "http://www.stfranciscare.org/",
-    "categories": ["medical"]
-  },
-  {
-    "name": "Anytime Fitness",
-    "address": "340 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://anytimefitness.com/gyms/2136/terms-of-use",
-    "categories": ["gym"]
-  },
-  {
-    "name": "West Hartford Yoga",
-    "address": "23 Brook Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.westhartfordyoga.com/",
-    "categories": ["gym"]
-  },
-  {
-    "name": "New York Sports Club",
-    "address": "65 Memorial Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.mysportsclubs.com/studio/New%20York/West%20Hartford",
-    "categories": ["gym"]
-  },
-  {
-    "name": "Massage Envy",
-    "address": "333 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.massageenvy.com/clinics/CT/West-Hartford.aspx",
-    "categories": ["amenity"]
+    "url": "http://www.petsuppliesplus.com/WESTHARTFORD9020",
+    "categories": ["shopping"]
   }
 ]

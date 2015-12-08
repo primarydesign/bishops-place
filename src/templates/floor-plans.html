@@ -14,7 +14,7 @@
       <div class="table--cell cell_head column col-4">Sq<i>uare</i> F<i>ee</i>t</div>
     </div>
     {% for appt in apartments %}
-    <div class="table--row row_body" data-apartment-id="">
+    <div class="table--row row_body" data-br="{{ appt.bedrooms }}" data-ba="{{ appt.bathrooms }}" data-sqft="{{ appt.squareft }}">
       <div class="table--cell cell_body column col-1">{{ appt.residence }}</div>
       <div class="table--cell cell_body column col-2">{{ appt.bedrooms | beword }}</div>
       <div class="table--cell cell_body column col-3">{{ appt.bathrooms | beword }}</div>
