@@ -1,0 +1,100 @@
+$popup-size: 25px;
+.popups-list {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.popups-list__item {}
+
+.popup {
+  display: none;
+  position: absolute;
+  height: $popup-size;
+  width: $popup-size;
+  z-index: 1;
+  font-size: 1rem;
+  margin-bottom: 60px;
+  @media (min-width: $max-width) {
+    display: block;
+  }
+}
+.popup__toggle {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  top: 0;left: 0;
+  width: 100%;
+  background-color: $blue;
+  &:before, &:after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    top: 50%;left: 50%;
+    width: 50%;
+    background: #ffffff;
+  }
+}
+.popup:not(:hover) .popup__toggle {
+  &:before {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg);
+  }
+  &:after {
+    transform:
+      translate(-50%, -50%)
+      rotate(-90deg);
+  }
+}
+.popup:hover .popup__toggle {
+  &:before {
+    transform:
+      translate(-50%, -50%)
+      rotate(45deg);
+  }
+  &:after {
+    transform:
+      translate(-50%, -50%)
+      rotate(-45deg);
+  }
+}
+
+.popup__content {
+  min-height: $popup-size * 2.25;
+  padding: 10px 10px;
+  padding-right: $popup-size + 10px;
+  position: absolute;
+  top: 0;right: 0;
+  width: 200px;
+  background-color: #ffffff;
+  font-size: 0.8em;
+  .popup:not(:hover) & {
+    display: none;
+  }
+  .popup:hover & {
+    display: block;
+  }
+}
+
+
+#popup-a {
+  top: 21%;
+  left: 18%;
+}
+#popup-b {
+  top: 52%;
+  left: 36%;
+}
+#popup-c {
+  top: 47%;
+  left: 48%;
+}
+#popup-d {
+  top: 32%;
+  left: 50%;
+}
+#popup-e {
+  top: 75%;
+  left: 65%;
+}
