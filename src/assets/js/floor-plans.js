@@ -1,24 +1,45 @@
 (function(window, $, undefined){$(document).ready(function() {
+  var tableChecks = $('.floorplansTable--option > input');
+  var tableRows = $('.table--row.row_body');
+  var table = $('.floorplansTable--table');
+
+  /* Show and Hide Floorplan Rows */
+  tableChecks.on('change', function() {
+    var query, bedrooms;
+    query = parseInt(this.value);
+    tableRows.each(function() {
+      bedrooms = parseInt(this.getAttribute('data-br'));
+      if (query === bedrooms) {
+        if (table.hasClass('not-selective')) $(this).affirmState('visible');
+        else $(this).toggleState('visible');
+      } else {
+        if (table.hasClass('not-selective')) $(this).negateState('visible');
+      }
+    });
+    table.affirmState('selective');
+  });
+
+  /* Open and Close the Floorplan Modal */
   $('.table--row.row_body').on('click', function() {
     var data = $(this).data();
-    var modal = buildModal(data.br, data.ba, data.sqft);
-    $('.page--content').append(modal);
+    $('.page--content').append(buildModal(data.br, data.ba, data.sqft));
     $('.floorplan-modal__close').on('click', function() {
       $('.floorplan-modal').remove();
       $('body').removeClass('is-locked');
     });
     $('body').addClass('is-locked');
   });
-  // $('.floorplan-modal').on('click', function() {
-  //   console.log('x');
-  // });
 
 
   /************************
     FUNCTION DECLARATIONS
   ************************/
 
-
+  /**
+   * BUILD MODAL
+   * Constructs a document fragment containing the floorplan modal to be inserted into the DOM
+   * @return {document fragment} - the floorplan modal structure
+   */
   function buildModal(br, ba, sf) {
     var bedroomType, bathroomType;
     switch (br) {

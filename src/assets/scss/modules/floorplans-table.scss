@@ -86,6 +86,12 @@
     }
   }
 }
+.table--row.row_body.is-visible {
+  display: block;
+}
+.table--row.row_body.not-visible {
+  display: none;
+}
 .table--cell {
   display: inline-block;
   padding: 6px 8px;
