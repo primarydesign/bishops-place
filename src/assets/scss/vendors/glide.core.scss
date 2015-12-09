@@ -1,0 +1,82 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.carousel--wrapper {
+  overflow: hidden;
+}
+.carousel--track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -ms-touch-action: pan-Y;
+      touch-action: pan-Y;
+}
+.carousel--track.dragging {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.carousel--slide {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel--arrows {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.carousel--arrow {
+  cursor: pointer;
+}
+.carousel--bullets {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.carousel--bullets li {
+  cursor: pointer;
+}
+.carousel--slider .carousel--slide {
+  float: left;
+  clear: none;
+}
+.carousel--carousel .carousel--slide {
+  float: left;
+  clear: none;
+}
+.carousel--slideshow .carousel--wrapper {
+  height: 100%;
+}
+.carousel--slideshow .carousel--slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.carousel--slideshow .carousel--slide.active {
+  z-index: 1;
+}

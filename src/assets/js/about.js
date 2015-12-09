@@ -1,10 +1,24 @@
 (function(window, $, undefined){$(document).ready(function() {
 
-  $('.carousel').owlCarousel({
-      slideSpeed: 300,
-      paginationSpeed: 400,
-      singleItem: true,
-      theme: 'carousel'
+  $('.carousel').glide({
+    type: 'carousel',
+    autoplay: false,
+    classes: {
+      base: "carousel",
+      wrapper: "carousel--wrapper",
+      track: "carousel--track",
+      slide: "carousel--slide",
+      arrows: "glide__arrows",
+      arrow: "glide__arrow",
+      arrowNext: "next",
+      arrowPrev: "prev",
+      bullets: "carousel--bullets",
+      bullet: "carousel--bullet",
+      clone: "clone",
+      active: "is-active",
+      dragging: "dragging",
+      disabled: "disabled"
+    }
   });
 
 })}(window, jQuery));

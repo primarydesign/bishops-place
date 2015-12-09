@@ -1,8 +1,19 @@
-.carousel {
+.carousel {}
+.carousel--wrapper {
   height: 100%;
+  width: 100%;
+}
+.carousel--track {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .carousel--slide {
+  display: inline-block;
   height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -20,13 +31,13 @@
 }
 
 /* CONTROLS THEME */
-.carousel .owl-controls {
+.carousel--bullets {
   bottom: 15px;left: 0;
   position: absolute;
   text-align: center;
   width: 100%;
 }
-.carousel .owl-page {
+.carousel--bullet {
   box-sizing: border-box;
   display: inline-block;
   height: 10px;
