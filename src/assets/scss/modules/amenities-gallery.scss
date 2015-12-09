@@ -1,3 +1,25 @@
+.section--type {
+  text-align: center;
+}
+.type-list {
+  display: inline-block;
+  text-align: left;
+}
+.type-list__item {
+  display: inline-block;
+}
+.type-list__item.has-bullet{
+  &:before {
+    content: '\2022';
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    font-size: 1.75em;
+    line-height: 1em;
+    vertical-align: middle;
+  }
+}
+
 .amenities-gallery {}
 .gallery__track {
   display: flex;

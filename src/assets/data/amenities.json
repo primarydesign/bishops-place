@@ -1,18 +1,61 @@
 [
   {
     "title": "Bishops Cafe",
-    "caption": "Phasellus at rhoncus ipsum, nec consectetur ipsum. Aliquam erat volutpat. Praesent at tellus quam."
+    "caption": "Bishops Café with coffee bar and outdoor pergola",
+    "featured": true
   },
   {
     "title": "Courtyard",
-    "caption": "Phasellus at rhoncus ipsum, nec consectetur ipsum. Aliquam erat volutpat. Praesent at tellus quam."
+    "caption": "Beautifully landscaped courtyard with gas barbecues, fireplace, and lounge seating",
+    "featured": true
   },
   {
-    "title": "Natural Light",
-    "caption": "Phasellus at rhoncus ipsum, nec consectetur ipsum. Aliquam erat volutpat. Praesent at tellus quam."
+    "title": "Pet-friendly",
+    "caption": "Pet-friendly community with pet wash",
+    "featured": true
   },
   {
     "title": "Fitness Center",
-    "caption": "Phasellus at rhoncus ipsum, nec consectetur ipsum. Aliquam erat volutpat. Praesent at tellus quam."
+    "caption": "Well-equipped fitness center with yoga room",
+    "featured": true
+  },
+  {
+    "title": "",
+    "caption": "Two-story lobby with architectural staircase with Terrazzo steps",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "TV Room",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "Business lounge",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "Bike storage and built-in air pump",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "Rooftop deck with lounge chairs",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "WiFi in all common areas",
+    "featured": false
+  },
+  {
+    "title": "",
+    "caption": "Secure package acceptance room",
+    "featured": false
+  },{
+    "title": "",
+    "caption": "Dry cleaning drop off service",
+    "featured": false
   }
 ]
