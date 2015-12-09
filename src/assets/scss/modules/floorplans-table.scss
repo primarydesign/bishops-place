@@ -13,6 +13,7 @@
   padding: 0 7px;
   vertical-align: top;
   width: calc(100%/3);
+  font-family: $serif;
   font-size: 1rem;
   input {
     display: none;
@@ -32,7 +33,7 @@
   }
   span {
     font-size: 1.00rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.25em;
     text-transform: uppercase;
     @media (min-width: 650px) {

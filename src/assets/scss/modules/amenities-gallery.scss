@@ -1,34 +1,3 @@
-.section--type {
-  padding: 0 20%;
-  text-align: center;
-}
-.section--type.type_spaced {
-  padding-top: 40px;
-}
-.type-list {
-  display: inline-block;
-  text-align: left;
-}
-.type-list__item {
-  display: inline-block;
-  margin-bottom: 10px;
-  position: relative;
-  &:last-of-type {
-    margin-bottom: 0;
-  }
-}
-.type-list__item.has-bullet{
-  &:before {
-    content: '\2022';
-    display: inline-block;
-    height: 100%;
-    position: absolute;
-    top: 0;left: -16px;
-    font-size: 1.75em;
-    line-height: 0.70em;
-  }
-}
-
 .amenities-gallery {}
 .gallery__track {
   display: flex;
