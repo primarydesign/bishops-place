@@ -19,11 +19,24 @@
     var negative = 'not-' + stateName;
     this.removeClass(negative).addClass(positive);
   }
+  function scry(options) {
+    var target = this.data('scry');
+    if (typeof options === 'number') {
+      $(target).velocity('scroll', {
+        duration: 300,
+        easing: 'easeInSine',
+        offset: options
+      });
+    } else if (typeof options === 'object') {
+      $(target).velocity('scroll', options);
+    }
+  }
 
   $.fn.extend({
     affirmState: affirmState,
     negateState: negateState,
-    toggleState: toggleState
+    toggleState: toggleState,
+    scry: scry
   });
 
 })}(window, jQuery));
