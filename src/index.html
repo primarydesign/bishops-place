@@ -24,6 +24,10 @@
       window.__neighborhoodAttractions__ = [
         {% for attr in attractions %}
           {
+            position: {
+              lat: {{ attr.lat }},
+              lng: {{ attr.lng }}
+            },
             name: "{{ attr.name }}",
             address: "{{ attr.address }}",
             city: "{{ attr.city }}",

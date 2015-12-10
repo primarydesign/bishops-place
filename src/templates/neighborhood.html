@@ -5,7 +5,7 @@
     <form class="neighborhood-map__options" novalidate>
       {% set categories = ['show all','restaurants/bars','entertainment','parks/recreation','shopping','institutions','groceries','services'] %}
       {% for category in categories %}
-        <label class="neighborhood-map__option" id="option-{{ category | replace('/', '_') | replace(' ', '_') }}">
+        <label class="neighborhood-map__option" id="option-{{ category | replace('/', '_') | replace(' ', '_') }}" data-category="{{ category }}">
           <input type="checkbox" name="categories" val="{{ category | replace('/', '_') | replace(' ', '_') }}">
           <span class="neighborhood-map__option-text">{{ category | replace('/', ' & ') | title }}</span>
         </label>

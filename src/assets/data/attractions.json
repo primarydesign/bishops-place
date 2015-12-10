@@ -4,7 +4,7 @@
     "address": "2432 Albany Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": 0,
+    "url": "",
     "lat": 41.786806,
     "lng": -72.745384,
     "categories": ["home"]
@@ -257,7 +257,7 @@
     "url": "http://gofiveguys.com/menu/five-guys-west-hartford/",
     "lat": 41.7842265,
     "lng": -72.747786,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Starbucks",
@@ -267,7 +267,7 @@
     "url": "http://www.starbucks.com/",
     "lat": 41.7857082,
     "lng": -72.747526,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Blue Plate Kitchen",
@@ -277,7 +277,7 @@
     "url": "http://bpkwesthartford.com/",
     "lat": 41.7846618,
     "lng": -72.7506004,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Max Burger",
@@ -287,7 +287,7 @@
     "url": "http://www.maxrestaurantgroup.com/burger/",
     "lat": 41.7585569,
     "lng": -72.7463058,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Max Oyster Bar",
@@ -297,7 +297,7 @@
     "url": "http://www.maxrestaurantgroup.com/oyster/",
     "lat": 41.7619726,
     "lng": -72.7451347,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Bricco",
@@ -307,7 +307,7 @@
     "url": "http://www.billygrant.com/bricco",
     "lat": 41.7594462,
     "lng": -72.7462445,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Treva",
@@ -317,7 +317,7 @@
     "url": "http://www.trevact.com/",
     "lat": 41.761513,
     "lng": -72.7464995,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Avert",
@@ -327,7 +327,7 @@
     "url": "http://www.avertbrasserie.com/",
     "lat": 41.760402,
     "lng": -72.7470012,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "World of Beer",
@@ -337,7 +337,7 @@
     "url": "http://www.wolrdofbeer.com/Locations/WestHartford",
     "lat": 41.760411,
     "lng": -72.742822,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Plan b Burger",
@@ -347,7 +347,7 @@
     "url": "http://www.planbburger.com/menu_dinner.pdf",
     "lat": 41.7579499,
     "lng": -72.7229792,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Barcelona",
@@ -357,7 +357,7 @@
     "url": "http://www.barcelonawinebar.com/westhartford.htm",
     "lat": 41.7612095,
     "lng": -72.7454666,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Cheesecake Factory",
@@ -367,7 +367,7 @@
     "url": "http://locations.thecheesecakefactory.com/ct/west-hartford-126.html",
     "lat": 41.760311,
     "lng": -72.742411,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "BarTaco",
@@ -377,7 +377,7 @@
     "url": "http://www.bartaco.com/",
     "lat": 41.7611618,
     "lng": -72.7454592,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Bertucci",
@@ -387,7 +387,7 @@
     "url": "http://www.bertuccis.com/locations/west-hartford",
     "lat": 41.7841368,
     "lng": -72.7476581,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Lox Stock Bagels",
@@ -397,7 +397,7 @@
     "url": "http://www.loxstock.com/",
     "lat": 41.7842998,
     "lng": -72.7476662,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Flemings",
@@ -407,7 +407,7 @@
     "url": "https://www.flemingssteakhouse.com/locations/ct/west-hartford/",
     "lat": 41.7601688,
     "lng": -72.7437399,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Besito",
@@ -417,7 +417,7 @@
     "url": "http://www.besitomexican.com/location_menu.aspx?ref=18",
     "lat": 41.760078,
     "lng": -72.744045,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "J Rene Coffee Roasters",
@@ -427,7 +427,7 @@
     "url": "http://jrenecoffee.com/",
     "lat": 41.7562086,
     "lng": -72.7307027,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Panera Bread",
@@ -437,7 +437,7 @@
     "url": "https://www.panerabread.com/en-us/home.html",
     "lat": 41.7863577,
     "lng": -72.7511447,
-    "categories": ["restaurants"]
+    "categories": ["restaurants/bars"]
   },
   {
     "name": "Esquire Cleaners",

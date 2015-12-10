@@ -73,8 +73,15 @@
       this.markers._add(marker);
       return marker;
     }
-
   };
+  /**
+   * EACH_MARKER
+   */
+  Mapster.prototype.eachMarker = function each_marker(action) {
+    for(var i = 0; i < this.markers.list.length; i++) {
+      action.call(this.markers.list[i]);
+    }
+  }
   /**
    * SET_EVENTS
    * * Set and register multiple events for an object instance
