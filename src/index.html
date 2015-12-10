@@ -34,6 +34,7 @@
             state: "{{ attr.state }}",
             url: "{{ attr.url }}",
             categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}],
+            icon: 'assets/img/marker-{{ attr.categories[0] | filename | replace("/", "_") }}.svg',
             content: '<div class="iw">' +
                         '<div class="iw__content">' +
                           '<h2 class="iw__title"><a href="{{ attr.url }}">{{ attr.name | escape }}</a></h2>' +
@@ -44,8 +45,7 @@
                           '</address>' +
                         '</div>' +
                         '<div class="iw__bottom"></div>' +
-                      '</div>',
-            iwActive: false
+                      '</div>'
           }{% if not loop.last %},{% endif %}
         {% endfor %}
       ];
