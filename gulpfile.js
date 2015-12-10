@@ -155,5 +155,7 @@ function Beword(input) {
   }
 }
 function Filename(string) {
-  return string.replace(' ', '_').toLowerCase();
+  var string = string.replace(' ', '_').toLowerCase();
+  string = string.replace(/[é]/gi, 'e');
+  return string;
 }
