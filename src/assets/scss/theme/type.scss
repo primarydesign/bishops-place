@@ -15,7 +15,7 @@
   }
 }
 .section--paragraph {
-  margin: auto;
+  margin: 0 auto 20px;
   max-width: 800px;
   padding: 0 15px;
   width: 85%;
@@ -24,6 +24,9 @@
   letter-spacing: 1px;
   line-height: 24px;
   text-align: center;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 .section--type {
   padding: 0 20%;
