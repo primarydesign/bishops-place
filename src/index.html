@@ -19,18 +19,34 @@
           </section>
         {% endfor %}
       </main>
-      {# include 'structures/footer.html' #}
     </div>
+    {% include 'structures/footer.html' %}
     <script type="text/javascript">
       window.__neighborhoodAttractions__ = [
         {% for attr in attractions %}
           {
+            position: {
+              lat: {{ attr.lat }},
+              lng: {{ attr.lng }}
+            },
             name: "{{ attr.name }}",
             address: "{{ attr.address }}",
             city: "{{ attr.city }}",
             state: "{{ attr.state }}",
             url: "{{ attr.url }}",
-            categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}]
+            categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}],
+            icon: 'assets/img/marker-{{ attr.categories[0] | filename | replace("/", "_") }}.svg',
+            content: '<div class="iw">' +
+                        '<div class="iw__content">' +
+                          '<h2 class="iw__title"><a href="{{ attr.url }}">{{ attr.name | escape }}</a></h2>' +
+                          '<address class="iw__title">' +
+                            '<p>{{ attr.address }}</p>' +
+                            '<p>{{ attr.city }}</p>' +
+                            '<p>{{ attr.state }}</p>' +
+                          '</address>' +
+                        '</div>' +
+                        '<div class="iw__bottom"></div>' +
+                      '</div>'
           }{% if not loop.last %},{% endif %}
         {% endfor %}
       ];
@@ -38,5 +54,6 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;ver=4.3.1"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="assets/js/index.js"></script>
+
 	</body>
 </html>
