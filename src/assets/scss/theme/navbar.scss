@@ -4,6 +4,9 @@
   transform: translateX(-50%);
   width: 100%;
   z-index: 5;
+  @media (max-width:768px) {
+    display: none;
+  }
 }
 .navbar--nav {
   text-align: center;
@@ -37,6 +40,10 @@
   letter-spacing: .025rem;
   line-height: 40px;
   text-transform: uppercase;
+    @media (min-width:769px) and (max-width: 900px) {
+        font-size: .7em;
+        font-weight: 400;
+    }
 }
 
 .navbar--brand {

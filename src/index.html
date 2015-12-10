@@ -9,6 +9,7 @@
 	<body class="page">
     <div class="page--wrapper constrained">
       {% include 'structures/navbar.html' %}
+      {% include 'structures/mobile-nav.html' %}    
       <main class="page--content" role="content">
         {% for section in ["about", "floor-plans", "amenities", "gallery", "neighborhood", "contact"] %}
           <section class="section" id="{{ section }}">
