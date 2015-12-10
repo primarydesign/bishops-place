@@ -76,6 +76,8 @@
   };
   /**
    * EACH_MARKER
+   * * Call a function on each marker
+   * @param {function} action -  the function to call on each marker
    */
   Mapster.prototype.eachMarker = function each_marker(action) {
     for(var i = 0; i < this.markers.list.length; i++) {
@@ -142,15 +144,16 @@
     this._registerListener([
       {
         object: marker,
-        event: 'mouseover',
+        event: 'click',
         action: function(instance, e) {
-          this.infoWindow.open(instance.map, this);
-        }
-      },{
-        object: marker,
-        event: 'mouseout',
-        action: function(map, e) {
-          this.infoWindow.close();
+          if (this.infoWindow.getMap()) {
+            this.infoWindow.close();
+          } else {
+            instance.eachMarker(function() {
+              this.infoWindow.close();
+            });
+            this.infoWindow.open(instance.map, this);
+          }
         }
       }
     ]);
