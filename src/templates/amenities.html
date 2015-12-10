@@ -5,7 +5,7 @@
   <ul class="gallery__track">
     {% for amenity in amenities | selectattr('featured') %}
       <li class="gallery__item">
-        <div class="amenity-card" style="background-image: url('assets/img/amenity-{{ amenity.title | filename }}.jpg');">
+        <div class="amenity-card" id="{{ amenity.title | filename }}" style="background-image: url('assets/img/amenity-{{ amenity.title | filename }}.jpg');">
           <span class="amenity-card__title">{{ amenity.title }}</span>
           <div class="amenity-card__caption"><p>{{ amenity.caption }}</p></div>
         </div>
