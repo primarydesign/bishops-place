@@ -57,3 +57,23 @@
     // line-height: 0.70em;
   }
 }
+
+/* mobile finessing */
+@media (max-width: 768px) {
+    .section--paragraph {
+        text-align: left;
+    }
+
+  .floorplansTable--option span {
+  font-size: .85rem !important;
+  line-height: 1.5em;
+  }
+  .table--cell.cell_head {
+    font-size: .8rem !important;
+  }
+    .amenity-card__caption {
+    height: auto !important;
+    padding: 10px 0;
+    font-size: .875em;
+  }
+}
