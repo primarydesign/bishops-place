@@ -43,6 +43,8 @@ gulp.task('pages', function() {
   var env = nunjucks(['src/templates/'], {watch: false});
   env.addFilter('beword', Beword);
   env.addFilter('filename', Filename);
+  gulp.src('./src/*.php')
+    .pipe(gulp.dest('./app/'));
   return gulp.src('./src/*.html')
     .pipe(plumber())
     .pipe(data(add_data()))
