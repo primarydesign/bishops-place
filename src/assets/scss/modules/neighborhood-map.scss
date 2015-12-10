@@ -70,13 +70,14 @@
 }
 
 .neighborhood-map__option:before {
+  $size: 25px;
   content: '';
   display: inline-block;
-  height: 20px;
+  height: $size;
   margin-right: 20px;
   position: relative;
   vertical-align: middle;
-  width: 20px;
+  width: $size;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
