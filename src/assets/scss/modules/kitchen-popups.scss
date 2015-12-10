@@ -61,12 +61,12 @@ $popup-size: 25px;
 }
 
 .popup__content {
-  min-height: $popup-size * 2.25;
-  padding: 10px 10px;
-  padding-right: $popup-size + 10px;
+  min-height: $popup-size * 1.5;
+  padding: 8px 8px;
+  padding-right: $popup-size + 4px;
   position: absolute;
   top: 0;right: 0;
-  width: 200px;
+  width: 150px;
   background-color: #ffffff;
   font-size: 0.8em;
   .popup:not(:hover) & {
@@ -87,12 +87,12 @@ $popup-size: 25px;
   left: 36%;
 }
 #popup-c {
-  top: 47%;
+  top: 39%;
   left: 48%;
 }
 #popup-d {
-  top: 32%;
-  left: 50%;
+  top: 31%;
+  left: 52%;
 }
 #popup-e {
   top: 75%;
