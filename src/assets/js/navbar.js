@@ -2,7 +2,7 @@
 
   var navlinks = $('.nav--link, .mobile-nav--link');
 
-  navlinks.on('click', function(event) {
+  navlinks.add('.heading-scryer').on('click', function(event) {
     event.preventDefault();
     $(this).scry(0);
   })

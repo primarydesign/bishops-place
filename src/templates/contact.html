@@ -1,7 +1,10 @@
-<h2 class="section--heading has-arrow">Contact</h2>
+<h2 class="section--heading">
+  <span class="heading-scryer" data-scry="#contact"></span><br/>
+  Contact
+</h2>
 <form class="contact-form" novalidate>
   <div class="contact-form__wrapper">
-    <h2 class="contact-form__heading">Interested in living here?</h2>
+    <h2 class="contact-form__heading">Interested <small>in</small> living here?</h2>
     <label class="contact-form__field field">
       <!-- <span class="field__label">Name</span> -->
       <input type="text" class="field__input" id="contact-name" name="name" placeholder="name" required>
@@ -15,8 +18,8 @@
       <input type="email" class="field__input" id="contact-email" name="email" placeholder="email" data-pattern="[a-zA-Z0-9_.+\-]+@[a-zA-Z0-9-.]+$" required>
     </label>
     <label class="contact-form__field field">
-      <span class="field__label">Message</span>
-      <textarea class="field__input input--textarea" id="contact-message" name="message" placeholder="Thanks for getting in touch!"></textarea>
+      <!-- <span class="field__label">Message</span> -->
+      <textarea class="field__input input--textarea" id="contact-message" name="message" placeholder="Message"></textarea>
     </label>
     <input type="submit" class="contact-form__submit" value="submit">
   </div>

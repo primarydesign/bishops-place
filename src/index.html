@@ -9,7 +9,7 @@
 	<body class="page">
     <div class="page--wrapper constrained">
       {% include 'structures/navbar.html' %}
-      {% include 'structures/mobile-nav.html' %}    
+      {% include 'structures/mobile-nav.html' %}
       <main class="page--content" role="content">
         {% for section in ["about", "floor-plans", "amenities", "gallery", "neighborhood", "contact"] %}
           <section class="section" id="{{ section }}">
@@ -39,10 +39,9 @@
             content: '<div class="iw">' +
                         '<div class="iw__content">' +
                           '<h2 class="iw__title"><a href="{{ attr.url }}">{{ attr.name | escape }}</a></h2>' +
-                          '<address class="iw__title">' +
+                          '<address class="iw__address">' +
                             '<p>{{ attr.address }}</p>' +
-                            '<p>{{ attr.city }}</p>' +
-                            '<p>{{ attr.state }}</p>' +
+                            '<p>{{ attr.city }} {{ attr.state }}</p>' +
                           '</address>' +
                         '</div>' +
                         '<div class="iw__bottom"></div>' +

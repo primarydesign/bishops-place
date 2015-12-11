@@ -1,20 +1,32 @@
 .contact-form {
   display: block;
   margin: 0 auto;
-  max-width: 90%;
+  // max-width: 90%;
   padding: 30px 0 80px;
-  width: 500px;
+  width: 100%;
+  background-color: rgba($gray, 0.2);
+  background-image: url('../img/tile-bishops-b-gray.gif');
+  background-size: 60px;
 }
 .contact-form__wrapper {
   height: 100%;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 90%;
+  width: 500px;
 }
 .contact-form__heading {
   margin-bottom: 30px;
   color: rgba($gray, 0.9);
-  font-size: 1.5em;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-family: $serif;
+  font-size: 1.75em;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  small {
+    font-size: 0.6em;
+    vertical-align: middle;
+  }
 }
 .contact-form__field {
   display: block;
@@ -33,7 +45,9 @@
   outline: none;
   border: 1px solid $blue;
   box-shadow: none;
+  letter-spacing: 1px;
   transition: all 200ms ease-out;
+  text-transform: uppercase;
   &:hover {
     background-color: #ffffff;
     color: $blue;
@@ -60,14 +74,20 @@
 }
 .field__input {
   height: 40px;
+  padding-left: 8px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid $blue;
   outline: none;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  &::placeholder {
+    color: red !important;
+  }
 }
 .field__input.input--textarea {
   max-width: 100%;
   min-height: 120px;
   padding: 8px;
-  border: 1px solid $blue;
+  // border: 1px solid $blue;
 }

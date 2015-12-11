@@ -28,7 +28,9 @@
   height: 40px;
   vertical-align: middle;
   width: calc((100% - 180px) / 6);
-  background-color: white;
+  background-color: rgba($gray, 0.1);
+  border-left: none;
+  border-right: none;
   font-size: 1rem;
 }
 .nav--link {
@@ -49,10 +51,21 @@
 .navbar--brand {
   height: auto;
   padding: 20px;
+  position: relative;
   width: 180px;
-  background-color: white;
+  background-color: rgba($gray, 0.1);
+  &:before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: white;
+  }
   img {
     height: auto;
     width: 100%;
+    z-index: 1;
   }
 }

@@ -34,6 +34,7 @@
   span {
     font-size: 1.00rem;
     font-weight: 400;
+    letter-spacing: 1.15px;
     line-height: 1.25em;
     text-transform: uppercase;
     @media (min-width: 650px) {
@@ -103,7 +104,8 @@
 }
 .table--cell.cell_head {
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 1px;
   i {
     display: none;
     font-style: normal;
@@ -117,7 +119,7 @@
 }
 .table--cell.cell_body {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 .column {
   border-right: 1px solid $gray;
