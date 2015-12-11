@@ -5,13 +5,13 @@
   width: 100%;
   @media (min-width: 700px) {
     height: 60vh;
-    max-height: 600px;
+    max-height: 550px;
   }
 }
 
 .neighborhood-map__canvas {
   height: 60vh;
-  max-height: 600px;
+  max-height: 550px;
   position: relative;
   width: 100%;
   @media (min-width: 700px) {
@@ -23,38 +23,52 @@
 }
 
 .neighborhood-map__interface {
+  // @extend %valign-content;
   display: block;
-  padding: 0 20px;
+  height: 100%;
+  padding: 0 0;
   position: relative;
   width: 100%;
   z-index: 1;
-  background-image: url(../img/tile-bishops-b.gif);
-  background-size: 55px;
+  // background-image: url(../img/tile-bishops-b.gif);
+  // background-size: 55px;
+  background-color: rgba($gray, 1.0);
   background-repeat: repeat;
   @media (min-width: 700px) {
     display: inline-block;
-    padding: 20px 20px 20px 0;
+    padding: 0 30px 0 0;
     width: auto;
   }
 }
 
 .neighborhood-map__options {
-  padding: 15px 25px;
+  height: 100%;
+  padding: 0;
   padding-left: 0;
-  background-color: rgba(#000, 0.8);
+
 }
 
 .neighborhood-map__option {
+  @extend %valign-text;
   display: block;
+  height: calc(100%/8) !important;
   padding: 6px 5px;
-  padding-left: 35px;
+  padding-left: 25px;
   border-bottom: 1px solid rgba(#fff, 0.25);
   color: #ffffff;
+  // font-size: 0;
   &.is-checked, &:hover {
     color: $blue;
   }
   &:last-child {
     border-bottom: none;
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    background-color: red;
   }
   input { display: none; }
 }
@@ -67,6 +81,9 @@
   line-height: 15px;
   text-transform: uppercase;
   vertical-align: middle;
+  input:checked + & {
+    color: $blue;
+  }
 }
 
 .neighborhood-map__option:before {
