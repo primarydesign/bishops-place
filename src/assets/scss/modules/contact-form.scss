@@ -29,10 +29,15 @@
   width: auto;
   background: $blue;
   border: none;
-  border-radius: 50px;
   color: #ffffff;
   outline: none;
+  border: 1px solid $blue;
   box-shadow: none;
+  transition: all 200ms ease-out;
+  &:hover {
+    background-color: #ffffff;
+    color: $blue;
+  }
 }
 
 .field {}
