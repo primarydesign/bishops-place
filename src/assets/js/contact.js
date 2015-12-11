@@ -35,7 +35,7 @@
   }
 
   $('.field__input').on('blur', function() {
-    console.log(validate.call($(this)));
+    validate.call($(this));
   });
   $('.contact-form__submit').on('click', function(event) {
     event.preventDefault();
@@ -53,10 +53,14 @@
       url: 'submit.php',
       data: $(this).serialize(),
       success: function (data) {
-        // console.log(data);
-        $('.contact-form__submit').val('thank you');
+        closeForm();
       }
     });
   });
+
+  function closeForm() {
+    $('.contact-form').html('<span class="contact-form__response">Thank you,<br/> Someone from our leasing staff <br/>will contact you soon.</span>');
+  }
+  window.closef = closeForm;
 
 })}(window, jQuery));
