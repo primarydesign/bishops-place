@@ -71,7 +71,7 @@
           '<figure class="floorplan-modal__figure">' +
             '<img src="assets/img/floorplan-' + br + 'br-' + ba + 'ba-' + sf + '.svg" alt="' + br + 'br | ' + ba + 'ba | ' + sf + ' sq.ft.">' +
           '</figure>' +
-          '<a class="floorplan-modal__download" href="#" target="_blank">Download PDF</a>' +
+          '<a class="floorplan-modal__download" href="assets/floorplan-' + br + 'br_' + ba + 'ba_' + sf + '.pdf" target="_blank">Download PDF</a>' +
           '<p class="floorplan-modal__disclaimer">These floor plans are intended for illustrative purposes only and are not to scale; square foot measurements and dimensions are approximate and configurations may vary from unit to unit.</p>' +
           '<a class="floorplan-modal__close">X</a>' +
           '<ul class="floorplan-modal__icons">' +
