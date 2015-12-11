@@ -5,6 +5,7 @@ var direque = require('require-dir');
 var lazypipe = require('lazypipe');
 var plumber = require('gulp-plumber');
 /* processing */
+var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var cssmin = require('gulp-cssmin');
 var cssglob = require('gulp-css-globbing');
@@ -62,6 +63,9 @@ gulp.task('styles', function() {
     .pipe(souremaps.init())
     .pipe(souremaps.write())
     .pipe(preprocess())
+    .pipe(autoprefixer({
+      browsers: ['IE > 8', 'Safari >= 6']
+    }))
     .pipe(cssmin())
     .pipe(gulp.dest('./app/assets/css/'))
     .pipe(browser.stream());
