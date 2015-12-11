@@ -80,10 +80,10 @@
   outline: none;
   font-size: 0.8em;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  &::placeholder {
-    color: red !important;
-  }
+  &::-webkit-input-placeholder { text-transform: uppercase; }
+  &::-moz-placeholder { text-transform: uppercase; }
+  &:-moz-placeholder { text-transform: uppercase; }
+  &:-ms-input-placeholder { text-transform: uppercase; }
 }
 .field__input.input--textarea {
   max-width: 100%;
