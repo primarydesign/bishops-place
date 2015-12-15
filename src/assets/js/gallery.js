@@ -1,7 +1,7 @@
 (function(window, $, undefined){$(document).ready(function() {
 
   var body = $('body');
-  var thumbnail = $('.gallery__item');
+  var thumbnail = $('#gallery .gallery__item');
   var expose = $('.gallery-expose');
   var carousel = $('#gallery-expose');
   var closeBtn = $('.gallery-expose__close');

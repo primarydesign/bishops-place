@@ -51,7 +51,7 @@
     margin-bottom: 0;
   }
 }
-.type-list__item.has-bullet{
+.type-list__item.has-bullet {
   &:before {
     $size: 6px;
     content: '';
@@ -85,6 +85,6 @@
   }
 }
 sup {
-  font-size: 0.1em;
+  font-size: 0.6rem;
   font-weight: 100;
 }
