@@ -16,3 +16,74 @@
   font-family: $serif;
   letter-spacing: 1.5px;
 }
+
+.mapInterface {
+  height: 100%;
+  padding-right: 40px;
+  position: absolute;
+  top: 0;left: 0;
+  width: auto;
+  z-index: 1;
+  background-color: $gray;
+  color: #ffffff;
+}
+.mapInterface__categories {
+  height: 100%;
+  overflow: hidden;
+}
+.mapInterface__category {
+  height: calc(100% / 7);
+  padding-left: 25px;
+  &:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+  }
+}
+
+.category__field {
+  @extend %valign-content;
+  display: block;
+  height: 100%;
+}
+.category__input {
+  display: none;
+}
+.category__label {
+  span {
+    color: inherit;
+    font-size: 0.75em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+}
+.category__label:before {
+  $size: 25px;
+  content: '';
+  display: inline-block;
+  height: $size;
+  margin-right: 15px;
+  position: relative;
+  vertical-align: middle;
+  width: $size;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.category__matches {
+  display: none;
+}
+.category__match {}
+
+
+#category-restaurants_bars .category__label:before { background-image: url('../img/icon-restaurants.svg'); }
+#category-entertainment .category__label:before { background-image: url('../img/icon-entertainment.svg'); }
+#category-parks_recreation .category__label:before { background-image: url('../img/icon-recreation.svg'); }
+#category-shopping .category__label:before { background-image: url('../img/icon-shopping.svg'); }
+#category-salons .category__label:before { background-image: url('../img/icon-salons.svg'); }
+#category-institutions .category__label:before { background-image: url('../img/icon-institutions.svg'); }
+#category-groceries .category__label:before { background-image: url('../img/icon-groceries.svg'); }
+#category-services .category__label:before { background-image: url('../img/icon-services.svg'); }

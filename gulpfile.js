@@ -44,6 +44,8 @@ gulp.task('pages', function() {
   var env = nunjucks(['src/templates/'], {watch: false});
   env.addFilter('beword', Beword);
   env.addFilter('filename', Filename);
+  env.addFilter('collect', Collect);
+  env.addFilter('query', Query);
   gulp.src('./src/*.php')
     .pipe(gulp.dest('./app/'));
   return gulp.src('./src/*.html')
@@ -161,7 +163,36 @@ function Beword(input) {
   }
 }
 function Filename(string) {
-  var string = string.replace(' ', '_').toLowerCase();
+  var string = string.replace(/[\s\/]+/gi, '_').toLowerCase();
   string = string.replace(/[é]/gi, 'e');
   return string;
+}
+function Contains(array, value) {
+  if (array.indexOf(value) > -1) return true;
+  else return false;
+}
+function Collect(array, value) {
+  var collection = [];
+  for(var i = 0; i < array.length; i++) {
+    if (array[i][value]) {
+      if (array[i][value].constructor === Array) {
+        collection = collection.concat(array[i][value]);
+      }
+    }
+  }
+  return collection.reduce(function(p, c) {
+    if (p.indexOf(c) < 0) p.push(c);
+    return p;
+  }, []);
+}
+function Query(Objects, property, relation, value) {
+  var matches = [], i = 0;
+  if (relation === 'contains') {
+    for(i; i < Objects.length; i++) {
+      if (Objects[i][property].indexOf(value) > -1) {
+        matches.push(Objects[i]);
+      }
+    }
+  }
+  return matches;
 }
