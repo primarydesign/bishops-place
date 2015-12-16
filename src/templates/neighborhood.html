@@ -1,15 +1,15 @@
 <figure class="section--hero hero_simplex" id="neighborhood-header" style="background-image: url('assets/img/hero-stroll_in_park.jpg');"></figure>
 <h2 class="section--heading">Neighborhood</h2>
 <div class="neighborhood-map">
-  <form class="mapInterface" novalidate>
+  <nav class="mapInterface" novalidate>
     <ul class="mapInterface__categories">
     {% for category in attractions | collect('categories') %}
       {% if category != 'home' %}
-        <li class="mapInterface__category" id="category-{{ category | filename }}">
-          <label class="category__field">
-            <input class="category__input" type="radio" name="categories" val="{{ category | filename }}">
-            <a class="category__label"><span>{{ category | replace('/', ' & ') | title }}</span></a>
-          </label>
+        <li class="mapInterface__category">
+          <a class="category__label">
+            <span class="category__icon" style="background-image: url('assets/img/icon-{{ category | filename }}.svg');"></span>
+            <span class="category__name">{{ category | replace('/', ' & ') | title }}</span>
+          </a>
           <ul class="category__matches">
             {% for match in attractions | query('categories', 'contains', category) %}
               <li class="category__match">{{ match.name | title }}</li>
@@ -19,7 +19,7 @@
       {% endif %}
     {% endfor %}
     </ul>
-  </form>
+  </nav>
   <div class="neighborhood-map__canvas" id="map-canvas"></div>
 </div>
 <div class="section--type type_spaced">

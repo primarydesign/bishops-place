@@ -37,4 +37,23 @@
     }
   });
 
+  var category = '.mapInterface__category';
+  var categoryLabel = '.category__label';
+  var categoryName = '.category__name';
+  var categoryMatches = '.category__matches';
+  $('.category__label').on('click', function() {
+    var self = $(this);
+    var translate = !self.hasClass('is-selected')
+      ? -(100/7) * self.closest(category).index()
+      : 0;
+    self.toggleState('selected', categoryLabel);
+    self.find(categoryName).toggleState('highlighted', categoryName);
+    self.siblings(categoryMatches).toggleState('open', categoryMatches);
+    self.closest(category).toggleState('selected', category);
+    $('.mapInterface__categories').velocity({
+      translateY: translate + '%'
+    });
+  });
+
+
 })}(window, jQuery));
