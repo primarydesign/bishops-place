@@ -1,29 +1,11 @@
-<nav class="navbar--mobile"><img class="hamburger-icon" id="showLeft" src="assets/img/hamburger-icon.svg">
+<div class="navbar--mobile"><img class="hamburger-icon" id="showLeft" src="assets/img/hamburger-icon.svg">
     <div class="mobile-nav--logo"></div>
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-        <a class="mobile-nav--link" data-scry="#about-header">About</a>
-        <a class="mobile-nav--link" data-scry="#floorplans-header">Floor Plans</a>
-        <a class="mobile-nav--link" data-scry="#amenities-header">Amenities</a>
-        <a class="mobile-nav--link" data-scry="#gallery-header">Gallery</a>
-        <a class="mobile-nav--link" data-scry="#neighborhood-header">Neighborhood</a>
-        <a class="mobile-nav--link" data-scry="#contact">Contact</a>
+      <a class="mobile-nav--link" data-scry="#about-header">About</a>
+      <a class="mobile-nav--link" data-scry="#floorplans-header">Floor Plans</a>
+      <a class="mobile-nav--link" data-scry="#amenities-header">Amenities</a>
+      <a class="mobile-nav--link" data-scry="#gallery-header">Gallery</a>
+      <a class="mobile-nav--link" data-scry="#neighborhood-header">Neighborhood</a>
+      <a class="mobile-nav--link" data-scry="#contact">Contact</a>
     </nav>
-</nav>
-
-<!-- <script src="assets/js/classie.js"></script> -->
-<script>
-        var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-            body = document.body;
-
-        showLeft.onclick = function() {
-            classie.toggle( this, 'active' );
-            classie.toggle( menuLeft, 'cbp-spmenu-open' );
-            disableOther( 'showLeft' );
-        };
-
-        function disableOther( button ) {
-            if( button !== 'showLeft' ) {
-                classie.toggle( showLeft, 'disabled' );
-            }
-        }
-</script>
+</div>

@@ -20,6 +20,7 @@ body.is-locked {
   margin: 0 auto;
   max-width: $max-width;
   width: 100%;
+  z-index: 1;
 }
 .page--content {
   background-color: white;
