@@ -73,8 +73,8 @@
 }
 .category__label.is-selected,
 .category__label:hover {
+  background-color: #5A5A5A;
   border-bottom: 1px solid rgba(#fff, 0.5) !important;
-  color: #000;
 }
 
 .category__icon {
@@ -118,8 +118,8 @@
 .category__match {
   @extend %valign-text;
   cursor: pointer;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgba(#ffffff, 0.20);
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(#ffffff, 0.25);
   color: #ffffff;
   font-size: 0.75rem;
   font-weight: 100;
@@ -127,7 +127,7 @@
 }
 .category__match.is-selected,
 .category__match:hover {
-  color: #000;
+  background-color: #5A5A5A;
 }
 
 

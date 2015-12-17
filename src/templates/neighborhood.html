@@ -13,7 +13,7 @@
           <div class="category__matches">
             <ul class="category__matchesInner">
               {% for match in attractions | query('categories', 'contains', category) %}
-                <li class="category__match" data-latlng="{{ match.lat }},{{ match.lng }}" data-name="{{ match.name }}">{{ match.name | title }}</li>
+                <li class="category__match" data-latlng="{{ match.lat }},{{ match.lng }}" data-name="{{ match.name }}">{{ match.name }}</li>
               {% endfor %}
             </ul>
           </div>
