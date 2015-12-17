@@ -1,3 +1,4 @@
+$trans-ui: 300ms ease;
 .section--hero {
   position: relative;
 }
@@ -18,40 +19,53 @@
 }
 
 .mapInterface {
-  height: 100%;
+  display: block;
   overflow: hidden;
-  position: absolute;
-  top: 0;left: 0;
-  width: 275px;
   z-index: 1;
   background: $gray;
+  @media (max-width: 699px) {
+    height: 60vh;
+    max-height: $map-maxheight;
+    position: relative;
+    width: 100%;
+  }
+  @media (min-width: 700px) {
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    width: 275px;
+  }
 }
 .mapInterface__categories {
   height: 100%;
-  padding-right: 20px;
 }
 
 .mapInterface__category {
-  height: calc(100%/7);
+  height: calc(60vh/7);
+  max-height: $map-maxheight/7;
+  transition: all 300ms ease;
 }
-.category.is-selected {
-  height: 100%;
+.mapInterface__category.is-selected {
+  height: 60vh;
+  max-height: $map-maxheight;
 }
-
-
 .category__label {
   @extend %valign-content;
   cursor: pointer;
   display: inline-block;
-  height: 100%;
+  height: calc(60vh/7);
+  max-height: $map-maxheight/7;
   padding-left: 20px;
   width: 100%;
   z-index: 2;
-  border-bottom: 1px solid rgba(#ffffff, 0.20);
   color: #fff;
+  .mapInterface__category:nth-last-child(1n+2) & {
+    border-bottom: 1px solid rgba(#fff, 0.5);
+  }
 }
 .category__label.is-selected,
 .category__label:hover {
+  border-bottom: 1px solid rgba(#fff, 0.5) !important;
   color: #000;
 }
 
@@ -78,15 +92,13 @@
 
 
 .category__matches {
-  height: calc(100% - (100%/7));
-  max-height: 1px;
-  opacity: 0;
-  overflow-y: hidden;
+  height: 0;
+  overflow: hidden;
   z-index: 1;
-  transition: max-height 1500ms ease;
+  transition: height 300ms ease;
 }
 .category__matches.is-open {
-  overflow: auto;
+  height: calc(100% - (100%/7));
 }
 
 .category__match {
@@ -102,15 +114,4 @@
 .category__match.is-selected,
 .category__match:hover {
   color: #000;
-}
-
-.mapInterface__category.is-selected {
-  height: 100%;
-}
-.mapInterface__category.is-selected .category__label {
-  height: calc(100%/7);
-}
-.mapInterface__category.is-selected .category__matches {
-  max-height: 500px;
-  opacity: 1;
 }
