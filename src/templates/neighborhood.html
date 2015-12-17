@@ -6,14 +6,14 @@
     {% for category in attractions | collect('categories') %}
       {% if category != 'home' %}
         <li class="mapInterface__category">
-          <a class="category__label">
+          <a class="category__label" data-category="{{ category }}">
             <span class="category__icon" style="background-image: url('assets/img/icon-{{ category | filename }}.svg');"></span>
             <span class="category__name">{{ category | replace('/', ' & ') | title }}</span>
           </a>
           <div class="category__matches">
             <ul class="category__matchesInner">
               {% for match in attractions | query('categories', 'contains', category) %}
-                <li class="category__match">{{ match.name | title }}</li>
+                <li class="category__match" data-latlng="{{ match.lat }},{{ match.lng }}" data-name="{{ match.name }}">{{ match.name | title }}</li>
               {% endfor %}
             </ul>
           </div>
