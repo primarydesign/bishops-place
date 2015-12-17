@@ -52,6 +52,17 @@
     self.closest(category).toggleState('selected', category);
     $('.mapInterface__categories').velocity({
       translateY: translate + '%'
+    },{
+      duration: 300,
+      complete: function(elements) {
+        var matches = self.siblings(categoryMatches);
+        if (matches.hasClass('is-open')) {
+          matches.find('ul').slimScroll({
+            height: '100%',
+            wheelStep: 10
+          });
+        }
+      }
     });
   });
 

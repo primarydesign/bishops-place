@@ -10,11 +10,13 @@
             <span class="category__icon" style="background-image: url('assets/img/icon-{{ category | filename }}.svg');"></span>
             <span class="category__name">{{ category | replace('/', ' & ') | title }}</span>
           </a>
-          <ul class="category__matches">
-            {% for match in attractions | query('categories', 'contains', category) %}
-              <li class="category__match">{{ match.name | title }}</li>
-            {% endfor %}
-          </ul>
+          <div class="category__matches">
+            <ul class="category__matchesInner">
+              {% for match in attractions | query('categories', 'contains', category) %}
+                <li class="category__match">{{ match.name | title }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </li>
       {% endif %}
     {% endfor %}

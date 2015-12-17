@@ -101,6 +101,12 @@ $trans-ui: 300ms ease;
   height: calc(100% - (100%/7));
 }
 
+.category__matchesInner {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .category__match {
   @extend %valign-text;
   cursor: pointer;
