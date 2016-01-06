@@ -1,5 +1,6 @@
 .floorplansTable {
   padding: 0 25px;
+  * { white-space: nowrap; }
 }
 .floorplansTable--options {
   height: 80px;
