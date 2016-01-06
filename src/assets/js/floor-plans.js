@@ -22,7 +22,7 @@
   /* Open and Close the Floorplan Modal */
   $('.table--row.row_body').on('click', function() {
     var data = $(this).data();
-    $('.page--content').append(buildModal(data.br, data.ba, data.sqft));
+    $('.page').append(buildModal(data.br, data.ba, data.sqft));
     $('.floorplan-modal__close').on('click', function() {
       $('.floorplan-modal').remove();
       $('body').removeClass('is-locked');
