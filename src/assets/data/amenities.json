@@ -21,17 +21,17 @@
   },
   {
     "title": "",
-    "caption": "Two-story lobby with architectural staircase with Terrazzo steps",
+    "caption": "Two-story atrium with architectural staircase and Terrazzo steps",
     "featured": false
   },
   {
     "title": "",
-    "caption": "TV room",
+    "caption": "TV lounge",
     "featured": false
   },
   {
     "title": "",
-    "caption": "Business lounge",
+    "caption": "Business center",
     "featured": false
   },
   {
@@ -41,21 +41,22 @@
   },
   {
     "title": "",
-    "caption": "Rooftop deck with lounge chairs",
+    "caption": "Spacious rooftop deck",
     "featured": false
   },
   {
     "title": "",
-    "caption": "WiFi in all common areas",
+    "caption": "WiFi in all community areas",
     "featured": false
   },
   {
     "title": "",
-    "caption": "Secure package acceptance room",
+    "caption": "Secure parcel delivery room",
     "featured": false
-  },{
+  },
+  {
     "title": "",
-    "caption": "Dry cleaning drop off service",
+    "caption": "Dry cleaning pick up and drop off service",
     "featured": false
   }
 ]
