@@ -91,7 +91,7 @@ gulp.task('scripts', function() {
  * Compress and optimize images
  */
 gulp.task('images', function() {
-  return gulp.src('./src/assets/img/*.{jpg,jpeg,png,svg,gif}')
+  return gulp.src('./src/assets/img/**/*.{jpg,jpeg,png,svg,gif}')
   .pipe(plumber())
   .pipe(imagemin())
   .pipe(gulp.dest('./app/assets/img/'))
