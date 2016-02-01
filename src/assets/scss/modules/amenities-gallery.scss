@@ -38,6 +38,23 @@
     }
   }
 }
+.amenity-card--bishops_cafe {
+  background-position: center center;
+  background-size: cover;
+}
+.amenity-card--courtyard {
+  background-position: right 58%;
+  background-size: auto 210%;
+}
+.amenity-card--pet-friendly {
+  background-position: center center;
+  background-size: cover;
+}
+.amenity-card--fitness_center {
+  background-position: left top;
+  background-size: auto 180%;
+}
+
 .amenity-card__title {
   display: block;
   padding: 6px 10px;
