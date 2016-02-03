@@ -51,7 +51,7 @@
     /* manage interface animation */
     $('.mapInterface__categories').velocity({
       translateY: self.hasClass('is-selected')
-        ? (-(100/7) * index) + '%'
+        ? (-(100/8) * index) + '%'
         : 0
     },{
       duration: 300,
