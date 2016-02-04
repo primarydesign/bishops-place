@@ -37,7 +37,7 @@
             url: "{{ attr.url }}",
             categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}],
             icon: {
-              url: 'assets/img/marker-{{ attr.categories[0] | filename }}.png',
+              url: 'assets/img/map/marker-{{ attr.categories[0] | filename }}.png',
               size: new google.maps.Size(41, 45),
               origin: new google.maps.Point(0, 0),
               anchor: new google.maps.Point(0, 0)

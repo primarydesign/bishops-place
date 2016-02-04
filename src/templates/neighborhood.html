@@ -7,7 +7,7 @@
       {% if category != 'home' %}
         <li class="mapInterface__category">
           <a class="category__label" data-category="{{ category }}">
-            <span class="category__icon" style="background-image: url('assets/img/icon-{{ category | filename }}.svg');"></span>
+            <span class="category__icon" style="background-image: url('assets/img/map/icon-{{ category | filename }}.svg');"></span>
             <span class="category__name">{{ category | replace('/', ' & ') | title }}</span>
           </a>
           <div class="category__matches">

@@ -173,17 +173,13 @@ function Contains(array, value) {
 }
 function Collect(array, value) {
   var collection = [];
-  for(var i = 0; i < array.length; i++) {
-    if (array[i][value]) {
-      if (array[i][value].constructor === Array) {
-        collection = collection.concat(array[i][value]);
-      }
+  for(var i = 0, item; i < array.length; i++) {
+    item = array[i][value][0];
+    if (collection.indexOf(item) === -1) {
+      collection.push(item);
     }
   }
-  return collection.reduce(function(p, c) {
-    if (p.indexOf(c) < 0) p.push(c);
-    return p;
-  }, []);
+  return collection;
 }
 function Query(Objects, property, relation, value) {
   var matches = [], i = 0;

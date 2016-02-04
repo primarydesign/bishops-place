@@ -10,643 +10,663 @@
     "categories": ["home"]
   },
   {
-    "name": "MDC Reservoir",
-    "address": "MDC Reservoir #6",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.themdc.com/recreation-areas/reservoirs",
-    "lat": 41.7920357,
-    "lng": -72.7873843,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Westmoor Park",
-    "address": "119 Flagg Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.westmoorpark.org/",
-    "lat": 41.7839543,
-    "lng": -72.7615576,
-    "categories": ["Hospital"]
-  },
-  {
-    "name": "Elizabeth Park",
-    "address": "1555 Asylum Avenue",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://elizabethparkct.org/",
-    "lat": 41.7754316,
-    "lng": -72.7203599,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Wampanoag Country Club",
-    "address": "60 Wampanoag Dr",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.wampanoagcc.com/",
-    "lat": 41.8016444,
-    "lng": -72.7578911,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Jewish Community Center",
-    "address": "335 Bloomfield Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.mandelljcc.org/",
-    "lat": 41.800528,
-    "lng": -72.728608,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Hartford Golf Club",
-    "address": "134 Norwood Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.hartfordgolfclub.org/Club/Scripts/Home/home.asp",
-    "lat": 41.7960361,
-    "lng": -72.730109,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Tumblebrook Country Club",
-    "address": "111 Maple Ave",
-    "city": "Bloomfield",
-    "state": "CT",
-    "url": "http://tumblebrookcc.clubsoftlinks.com/home",
-    "lat": 41.8101411,
-    "lng": -72.758954,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "Anytime Fitness",
-    "address": "340 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://anytimefitness.com/gyms/2136/terms-of-use",
-    "lat": 41.8102516,
-    "lng": -72.8269821,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "West Hartford Yoga",
-    "address": "23 Brook Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.westhartfordyoga.com/",
-    "lat": 41.7231707,
-    "lng": -72.73651,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "New York Sports Club",
-    "address": "65 Memorial Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.mysportsclubs.com/studio/New%20York/West%20Hartford",
-    "lat": 41.7598798,
-    "lng": -72.7394172,
-    "categories": ["parks/recreation"]
-  },
-  {
-    "name": "University of St. Joseph",
-    "address": "1678 Asylum Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.usj.edu/",
-    "lat": 41.7809698,
-    "lng": -72.7328449,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "Renbrook School",
-    "address": "2865 Albany Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.renbrook.org/",
-    "lat": 41.787213,
-    "lng": -72.778916,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "Kingswood-Oxford",
-    "address": "170 Kingswood Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.kingswoodoxford.org/",
-    "lat": 41.7592594,
-    "lng": -72.7381403,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "University of Hartford",
-    "address": "200 Bloomfield Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.hartford.edu/",
-    "lat": 41.800045,
-    "lng": -72.7171843,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "West Hartford Public Library",
-    "address": "20 South Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.westhartfordlibrary.org/",
-    "lat": 41.7606691,
-    "lng": -72.7436791,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "Bishops Corner Medical Offfices",
-    "address": "2523 Albany Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.hartfordmedicalgroup.com/locations-pc-wh-bishops.php",
-    "lat": 41.7790312,
-    "lng": -72.742269,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "Hartford Hospital",
-    "address": "80 Seymour St",
-    "city": "Hartford",
-    "state": "CT",
-    "url": "http://www.hartfordmedicalgroup.com/",
-    "lat": 41.7544432,
-    "lng": -72.6816126,
-    "categories": ["institutions"]
-  },
-  {
-    "name": "Uconn Medical Center",
-    "address": "263 Farmington Ave",
-    "city": "Farmington",
-    "state": "CT",
-    "url": "http://www.uchc.edu/",
-    "lat": 41.730232,
-    "lng": -72.7937417,
-    "categories": ["institutions"]
-  },
-  {
     "name": "St. Francis Hospital",
     "address": "114 Woodland Street",
     "city": "Hartford",
     "state": "CT",
-    "url": "http://www.stfranciscare.org/",
+    "categories": ["Hospitals"],
     "lat": 41.7750753,
-    "lng": -72.7016004,
-    "categories": ["institutions"]
+		"lng": -72.7015951,
+    "url": "http://www.stfranciscare.org/"
   },
   {
-    "name": "Crown Supermarket",
-    "address": "2471 Albany Ave",
+    "name": "Hartford Hospital",
+    "address": "80 Seymour Street",
+    "city": "Hartford",
+    "state": "CT",
+    "categories": ["Hospitals"],
+    "lat": 41.7544432,
+		"lng": -72.6816073,
+    "url": "http://www.harthosp.org/"
+  },
+  {
+    "name": "UConn Health",
+    "address": "263 Farmington Avenue",
+    "city": "Farmington",
+    "state": "CT",
+    "categories": ["Hospitals"],
+    "lat": 41.7308025,
+		"lng": -72.7924731,
+    "url": "http://www.uchc.edu/"
+  },
+  {
+    "name": "UConn Law School",
+    "address": "55 Elizabeth Street",
+    "city": "Hartford",
+    "state": "CT",
+    "categories": ["Education"],
+    "lat": 41.7719404,
+		"lng": -72.7098359,
+    "url": "https://www.law.uconn.edu/"
+  },
+  {
+    "name": "University of Hartford",
+    "address": "200 Bloomfield Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.thecrownmarket.com/",
-    "lat": 41.7854175,
-    "lng": -72.7473268,
-    "categories": ["groceries"]
+    "categories": ["Education"],
+    "lat": 41.800045,
+		"lng": -72.717179,
+    "url": "http://www.hartford.edu/"
+  },
+  {
+    "name": "UConn Medical school",
+    "address": "263 Farmington Avenue",
+    "city": "Farmington",
+    "state": "CT",
+    "categories": ["Education"],
+    "lat": 41.7304094,
+		"lng": -72.7928068,
+    "url": "http://medicine.uchc.edu/"
+  },
+  {
+    "name": "University of St. Joseph",
+    "address": "1678 Asylum Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Education"],
+    "lat": 41.780408,
+		"lng": -72.7334871,
+    "url": "http://www.usj.edu/"
   },
   {
     "name": "Whole Foods",
     "address": "340 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.wholefoodsmarket.com/stores/westhartford",
-    "lat": 41.784701,
-    "lng": -72.7476247,
-    "categories": ["groceries"]
-  },
-  {
-    "name": "Big Y",
-    "address": "772 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.bigy.com/Locations/locationinfo/~18",
-    "lat": 41.787162,
-    "lng": -72.7489026,
-    "categories": ["groceries"]
-  },
-  {
-    "name": "Wal-Mart Neighborhood Market",
-    "address": "333 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.walmart.com/store/2303/whats-new",
-    "lat": 41.7871048,
-    "lng": -72.7814244,
-    "categories": ["groceries"]
+    "categories": ["Groceries/Pharmacy"],
+    "lat": 41.7846494,
+		"lng": -72.7475553,
+    "url": "http://www.wholefoodsmarket.com/stores/westhartford"
   },
   {
     "name": "Walgreens",
     "address": "324 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.walgreens.com/locator/walgreens-324+n+main+st-west+hartford-ct-06117/id=1826",
-    "lat": 41.7838672,
-    "lng": -72.7475728,
-    "categories": ["groceries"]
+    "categories": ["Groceries/Pharmacy"],
+    "lat": 42.2191223,
+		"lng": -72.6478662,
+    "url": "http://www.walgreens.com/locator/walgreens-324+n+main+st-west+hartford-ct-06117/id=1826"
   },
   {
-    "name": "Five Guys",
-    "address": "316 North Main Street",
+    "name": "Big Y",
+    "address": "772 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://gofiveguys.com/menu/five-guys-west-hartford/",
-    "lat": 41.7842265,
-    "lng": -72.747786,
-    "categories": ["restaurants/bars"]
+    "categories": ["Groceries/Pharmacy"],
+    "lat": 41.7870585,
+		"lng": -72.7487807,
+    "url": "http://www.bigy.com/Locations/locationinfo/~18"
   },
   {
-    "name": "Starbucks",
-    "address": "2475 Albany Ave",
+    "name": "Crown Supermarket",
+    "address": "2471 Albany Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.starbucks.com/",
-    "lat": 41.7857082,
-    "lng": -72.747526,
-    "categories": ["restaurants/bars"]
+    "categories": ["Groceries/Pharmacy"],
+    "lat": 41.7854167,
+		"lng": -72.7473152,
+    "url": "http://www.thecrownmarket.com/"
   },
   {
     "name": "Blue Plate Kitchen",
     "address": "345 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://bpkwesthartford.com/",
+    "categories": ["Restaurants/Bars"],
     "lat": 41.7846618,
-    "lng": -72.7506004,
-    "categories": ["restaurants/bars"]
+		"lng": -72.7505951,
+    "url": "http://bpkwesthartford.com/"
   },
   {
-    "name": "Max Burger",
-    "address": "124 LaSalle Road",
+    "name": "Starbucks",
+    "address": "2475 Albany Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.maxrestaurantgroup.com/burger/",
-    "lat": 41.7585569,
-    "lng": -72.7463058,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Max Oyster Bar",
-    "address": "964 Farmington Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.maxrestaurantgroup.com/oyster/",
-    "lat": 41.7619726,
-    "lng": -72.7451347,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Bricco",
-    "address": "78 LaSalle Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.billygrant.com/bricco",
-    "lat": 41.7594462,
-    "lng": -72.7462445,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Treva",
-    "address": "980 Farmington Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.trevact.com/",
-    "lat": 41.761513,
-    "lng": -72.7464995,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Avert",
-    "address": "35 LaSalle Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.avertbrasserie.com/",
-    "lat": 41.760402,
-    "lng": -72.7470012,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "World of Beer",
-    "address": "73 Isham Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.wolrdofbeer.com/Locations/WestHartford",
-    "lat": 41.760411,
-    "lng": -72.742822,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Plan b Burger",
-    "address": "138 Park Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.planbburger.com/menu_dinner.pdf",
-    "lat": 41.7579499,
-    "lng": -72.7229792,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Barcelona",
-    "address": "971 Farmington Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.barcelonawinebar.com/westhartford.htm",
-    "lat": 41.7612095,
-    "lng": -72.7454666,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Cheesecake Factory",
-    "address": "71 Isham Road",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://locations.thecheesecakefactory.com/ct/west-hartford-126.html",
-    "lat": 41.760311,
-    "lng": -72.742411,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "BarTaco",
-    "address": "971 Farmington Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.bartaco.com/",
-    "lat": 41.7611618,
-    "lng": -72.7454592,
-    "categories": ["restaurants/bars"]
-  },
-  {
-    "name": "Bertucci",
-    "address": "330 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.bertuccis.com/locations/west-hartford",
-    "lat": 41.7841368,
-    "lng": -72.7476581,
-    "categories": ["restaurants/bars"]
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7857082,
+		"lng": -72.7475207,
+    "url": "http://www.starbucks.com/"
   },
   {
     "name": "Lox Stock Bagels",
     "address": "332 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.loxstock.com/",
+    "categories": ["Restaurants/Bars"],
     "lat": 41.7842998,
-    "lng": -72.7476662,
-    "categories": ["restaurants/bars"]
+		"lng": -72.7476609,
+    "url": "http://www.loxstock.com/"
+  },
+  {
+    "name": "Panera Bread",
+    "address": "2534 Albany Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7863577,
+		"lng": -72.7511394,
+    "url": "https://www.panerabread.com/en-us/home.html"
+  },
+  {
+    "name": "Bertucci",
+    "address": "330 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7841368,
+		"lng": -72.7476528,
+    "url": "http://www.bertuccis.com/locations/west-hartford"
+  },
+  {
+    "name": "Five Guys",
+    "address": "316 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7842265,
+		"lng": -72.7477807,
+    "url": "http://gofiveguys.com/menu/five-guys-west-hartford/"
+  },
+  {
+    "name": "Harrys Bishops Corner Pizza",
+    "address": "732 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7865254,
+		"lng": -72.7485221,
+    "url": "http://www.harrysbc.com/"
+  },
+  {
+    "name": "Noodles and Co.",
+    "address": "333 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7843559,
+		"lng": -72.7500896,
+    "url": "http://order.noodles.com/menu/noodles-bishops-corner"
+  },
+  {
+    "name": "Max Oyster Bar",
+    "address": "964 Farmington Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7619726,
+		"lng": -72.7451294,
+    "url": "http://www.maxrestaurantgroup.com/oyster/"
+  },
+  {
+    "name": "Bricco",
+    "address": "78 LaSalle Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7594531,
+		"lng": -72.7462208,
+    "url": "http://www.billygrant.com/bricco"
+  },
+  {
+    "name": "Treva",
+    "address": "980 Farmington Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.761513,
+		"lng": -72.7464942,
+    "url": "http://www.trevact.com/"
+  },
+  {
+    "name": "Avert",
+    "address": "35 LaSalle Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.760402,
+		"lng": -72.7469959,
+    "url": "http://www.avertbrasserie.com/"
+  },
+  {
+    "name": "World of Beer",
+    "address": "73 Isham Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7602154,
+		"lng": -72.7425999,
+    "url": "http://worldofbeer.com/Locations/WestHartford"
+  },
+  {
+    "name": "Max Burger",
+    "address": "124 LaSalle Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7585569,
+		"lng": -72.7463005,
+    "url": "http://www.maxrestaurantgroup.com/burger/"
+  },
+  {
+    "name": "Barcelona",
+    "address": "971 Farmington Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7612095,
+		"lng": -72.7454613,
+    "url": "http://www.barcelonawinebar.com/westhartford.htm"
+  },
+  {
+    "name": "Cheesecake Factory",
+    "address": "71 Isham Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.760311,
+		"lng": -72.7424057,
+    "url": "http://locations.thecheesecakefactory.com/ct/west-hartford-126.html"
+  },
+  {
+    "name": "Bartaco",
+    "address": "971 Farmington Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7611618,
+		"lng": -72.7454539,
+    "url": "http://www.bartaco.com/"
   },
   {
     "name": "Flemings",
     "address": "44 South Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "https://www.flemingssteakhouse.com/locations/ct/west-hartford/",
+    "categories": ["Restaurants/Bars"],
     "lat": 41.7601688,
-    "lng": -72.7437399,
-    "categories": ["restaurants/bars"]
+		"lng": -72.7437346,
+    "url": "https://www.flemingssteakhouse.com/locations/ct/west-hartford/"
   },
   {
     "name": "Besito",
     "address": "46 South Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.besitomexican.com/location_menu.aspx?ref=18",
-    "lat": 41.760078,
-    "lng": -72.744045,
-    "categories": ["restaurants/bars"]
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7600087,
+		"lng": -72.7438528,
+    "url": "http://www.besitomexican.com/location_menu.aspx?ref=18"
   },
   {
-    "name": "J Rene Coffee Roasters",
+    "name": "J.Rene Coffee Roasters",
     "address": "320 Park Road",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://jrenecoffee.com/",
+    "categories": ["Restaurants/Bars"],
     "lat": 41.7562086,
-    "lng": -72.7307027,
-    "categories": ["restaurants/bars"]
+		"lng": -72.7306974,
+    "url": "http://jrenecoffee.com/"
   },
   {
-    "name": "Panera Bread",
-    "address": "2534 Albany Ave",
+    "name": "Plan B Burger",
+    "address": "138 Park Road",
     "city": "West Hartford",
     "state": "CT",
-    "url": "https://www.panerabread.com/en-us/home.html",
-    "lat": 41.7863577,
-    "lng": -72.7511447,
-    "categories": ["restaurants/bars"]
+    "categories": ["Restaurants/Bars"],
+    "lat": 41.7579499,
+		"lng": -72.7229739,
+    "url": "http://www.planbburger.com/menu_dinner.pdf"
   },
   {
     "name": "Esquire Cleaners",
-    "address": "2538 Albany Ave",
+    "address": "2538 Albany Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://esquirecleanersct.com/",
+    "categories": ["Services"],
     "lat": 41.786395,
-    "lng": -72.750935,
-    "categories": ["services"]
-  },
-  {
-    "name": "Battistons",
-    "address": "1245 Farmington Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.battistons.com/",
-    "lat": 41.754285,
-    "lng": -72.76876,
-    "categories": ["services"]
+		"lng": -72.7509297,
+    "url": "http://esquirecleanersct.com/"
   },
   {
     "name": "US Post Office",
     "address": "12 Crossroads Plaza",
     "city": "West Hartford",
     "state": "CT",
-    "url": "https://www.usps.com/",
-    "lat": 41.786665,
-    "lng": -72.7478545,
-    "categories": ["services"]
-  },
-  {
-    "name": "TD Bank",
-    "address": "319 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.tdbank.com/",
-    "lat": 41.7862444,
-    "lng": -72.7485353,
-    "categories": ["services"]
-  },
-  {
-    "name": "People's United Bank",
-    "address": "714 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.peoples.com/portal/site/peoples/",
-    "lat": 41.7862444,
-    "lng": -72.7485353,
-    "categories": ["services"]
-  },
-  {
-    "name": "Santander Bank",
-    "address": "342 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.santanderbank.com/us/",
-    "lat": 41.7852972,
-    "lng": -72.7483374,
-    "categories": ["services"]
-  },
-  {
-    "name": "UPS Store",
-    "address": "41 Crossroads Plaza",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://westhartford-ct-1915.theupsstorelocal.com/",
-    "lat": 41.7871674,
-    "lng": -72.7485828,
-    "categories": ["services"]
+    "categories": ["Services"],
+    "lat": 41.7876549,
+		"lng": -72.7650062,
+    "url": "https://tools.usps.com/go/POLocatorDetailsAction!input.action?locationTypeQ=all&address=06117&radius=20&locationType=po&locationID=1434077&locationName=BISHOPS+CORNER&address2=&address1=12+CROSSROADS+PLZ&city=WEST+HARTFORD&state=CT&zip5=06117&zip4=9998&tollFree=800-ASK-USPS%26reg%3B%26nbsp%3B%28800-275-8777%29&fax=860-231-2895&tAddress=&tAddress1Ams=&tAddress2Ams=&tCityAms=&tStateAms=&tZipAms=&tCarrierRouteAms=&latitude=41.786246&longitude=-72.745593&sWithin=20&&&&&&&&&"
   },
   {
     "name": "Webster Bank",
     "address": "774 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "https://public.websteronline.com/personal",
+    "categories": ["Services"],
     "lat": 41.7876203,
-    "lng": -72.7496906,
-    "categories": ["services"]
-  },
-  {
-    "name": "Bank of America ATM",
-    "address": "2523 Albany Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "https://www.bankofamerica.com/online-banking/bank-atm-locations.go",
-    "lat": 41.7852495,
-    "lng": -72.750028,
-    "categories": ["services"]
+		"lng": -72.7496853,
+    "url": "https://public.websteronline.com/personal"
   },
   {
     "name": "Massage Envy",
     "address": "333 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.massageenvy.com/clinics/CT/West-Hartford.aspx",
+    "categories": ["Services"],
     "lat": 41.7842465,
-    "lng": -72.7500365,
-    "categories": ["services"]
+		"lng": -72.7500312,
+    "url": "http://www.massageenvy.com/clinics/CT/West-Hartford.aspx"
   },
   {
-    "name": "Bushnell Performing Arts Center",
-    "address": "166 Capitol Ave",
-    "city": "Hartford",
+    "name": "Noah Webster Public Library",
+    "address": "20 South Main Street",
+    "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.bushnell.org/",
-    "lat": 41.7628944,
-    "lng": -72.6827117,
-    "categories": ["entertainment"]
+    "categories": ["Services"],
+    "lat": 41.7605936,
+		"lng": -72.7434691,
+    "url": "http://www.westhartfordlibrary.org/about/hours"
   },
   {
-    "name": "Hartford Stage",
-    "address": "50 Church Street",
-    "city": "Hartford",
+    "name": "Hartford HealthCare Medical Group",
+    "address": "336 North Main Street",
+    "city": "West Hartford",
     "state": "CT",
-    "url": "https://www.hartfordstage.org/",
-    "lat": 41.7688588,
-    "lng": -72.6765377,
-    "categories": ["entertainment"]
+    "categories": ["Services"],
+    "lat": 41.7844661,
+		"lng": -72.7482375,
+    "url": "http://www.hartfordmedicalgroup.com/"
   },
   {
-    "name": "Wadsworth Antheneum",
-    "address": "600 Main Street",
-    "city": "Hartford",
+    "name": "St. Francis Care Medical Group",
+    "address": "95 Woodland St",
+    "city": "West Hartford",
     "state": "CT",
-    "url": "https://thewadsworth.org/about/",
-    "lat": 41.7634501,
-    "lng": -72.6754026,
-    "categories": ["entertainment"]
+    "categories": ["Services"],
+    "lat": 41.7737059,
+		"lng": -72.7000766,
+    "url": "http://www.stfranciscare.org/Content.aspx?id=4294970901"
+  },
+  {
+    "name": "Pet Supplies Plus",
+    "address": "2480 Albany Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.786358,
+		"lng": -72.7476247,
+    "url": "http://www.petsuppliesplus.com/WESTHARTFORD9020"
+  },
+  {
+    "name": "TD Bank",
+    "address": "319 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.782908,
+		"lng": -72.7488281,
+    "url": "http://www.tdbank.com/"
+  },
+  {
+    "name": "People's United Bank",
+    "address": "714 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.7870069,
+		"lng": -72.7469625,
+    "url": "https://www.peoples.com/portal/site/peoples/"
+  },
+  {
+    "name": "UPS store",
+    "address": "41 Crossroads Plaza",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.7871674,
+		"lng": -72.7485775,
+    "url": "https://westhartford-ct-1915.theupsstorelocal.com/"
+  },
+  {
+    "name": "Santander Bank",
+    "address": "342 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.785271,
+		"lng": -72.7483227,
+    "url": "https://www.santanderbank.com/us/"
+  },
+  {
+    "name": "Bank of America ATM",
+    "address": "2523 Albany Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Services"],
+    "lat": 41.7852495,
+		"lng": -72.7500227,
+    "url": "https://www.bankofamerica.com/online-banking/bank-atm-locations.go"
+  },
+  {
+    "name": "Criterion Cinemas",
+    "address": "42 South Main Streeet",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Entertainment"],
+    "lat": 41.7603502,
+		"lng": -72.7437357,
+    "url": "http://www.bowtiecinemas.com/locations/criterion-cinemas-blue-back-square/"
   },
   {
     "name": "Playhouse on Park",
     "address": "244 Park Road",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://playhouseonpark.org/",
+    "categories": ["Entertainment"],
     "lat": 41.7574155,
-    "lng": -72.7279282,
-    "categories": ["entertainment"]
+		"lng": -72.7279229,
+    "url": "http://playhouseonpark.org/"
   },
   {
-    "name": "Criterion Theaters at Blue Back Square",
-    "address": "42 South Main Streeet",
+    "name": "Hartford Stage",
+    "address": "50 Church Street",
+    "city": "Hartford",
+    "state": "CT",
+    "categories": ["Entertainment"],
+    "lat": 41.7688588,
+		"lng": -72.6765324,
+    "url": "https://www.hartfordstage.org/"
+  },
+  {
+    "name": "Wadsworth Antheneum",
+    "address": "600 Main Street",
+    "city": "Hartford",
+    "state": "CT",
+    "categories": ["Entertainment"],
+    "lat": 41.7634501,
+		"lng": -72.6753973,
+    "url": "https://thewadsworth.org/about/"
+  },
+  {
+    "name": "Bushnell Performing Arts Center",
+    "address": "166 Capitol Avenue",
+    "city": "Hartford",
+    "state": "CT",
+    "categories": ["Entertainment"],
+    "lat": 41.7628944,
+		"lng": -72.6827064,
+    "url": "http://www.bushnell.org/"
+  },
+  {
+    "name": "Bishops Corner",
+    "address": "Intersection of North Main & Albany Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.bowtiecinemas.com/locations/criterion-cinemas-blue-back-square/",
-    "lat": 41.7603502,
-    "lng": -72.743741,
-    "categories": ["entertainment"]
-  },
-  {
-    "name": "Westfarms Mall",
-    "address": "1500 New Britain Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.shopwestfarms.com/",
-    "lat": 41.7228847,
-    "lng": -72.7655891,
-    "categories": ["shopping"]
-  },
-  {
-    "name": "Corbins Corner Shopping Center",
-    "address": "1445 New Britain Ave",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.regencycenters.com/retail-space/ct/west-hartford/corbins-corner#.VmIHargrKUk",
-    "lat": 41.7257871,
-    "lng": -72.7595602,
-    "categories": ["shopping"]
-  },
-  {
-    "name": "Simsbury Commons",
-    "address": "530 Bushy Hill Road",
-    "city": "Simsbury",
-    "state": "CT",
-    "url": "http://www.edens.com/centers/CT/Simsbury/Simsbury-Commons",
-    "lat": 41.8166904,
-    "lng": -72.8621217,
-    "categories": ["shopping"]
-  },
-  {
-    "name": "Marshalls",
-    "address": "333 North Main Street",
-    "city": "West Hartford",
-    "state": "CT",
-    "url": "http://www.marshallsonline.com/",
-    "lat": 41.7736765,
-    "lng": -72.7532771,
-    "categories": ["shopping"]
+    "categories": ["Shopping"],
+    "lat": 41.7857548,
+		"lng": -72.7492403,
+    "url": "http://edens.com/centers/CT/West-Hartford/Bishops-Corner"
   },
   {
     "name": "Blue Back Square",
-    "address": "60 Isham Road",
+    "address": "Intersection of Memorial Road and Isham Road",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.bluebacksquare.com/",
-    "lat": 41.760407,
-    "lng": -72.74225,
-    "categories": ["shopping"]
+    "categories": ["Shopping"],
+    "lat": 41.7597008,
+		"lng": -72.7426046,
+    "url": "http://www.bluebacksquare.com/"
   },
   {
-    "name": "Pet Supplies Plus",
-    "address": "2480 Albany Ave",
+    "name": "Westfarms Mall",
+    "address": "1500 New Britain Avenue",
     "city": "West Hartford",
     "state": "CT",
-    "url": "http://www.petsuppliesplus.com/WESTHARTFORD9020",
-    "lat": 41.786358,
-    "lng": -72.74763,
-    "categories": ["shopping"]
+    "categories": ["Shopping"],
+    "lat": 41.7228847,
+		"lng": -72.7655838,
+    "url": "http://www.shopwestfarms.com/"
+  },
+  {
+    "name": "Corbins Corner",
+    "address": "1445 New Britain Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Shopping"],
+    "lat": 41.7257871,
+		"lng": -72.7595549,
+    "url": "http://www.regencycenters.com/retail-space/ct/west-hartford/corbins-corner#.VmIHargrKUk"
+  },
+  {
+    "name": "Anytime Fitness",
+    "address": "340 North Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7846494,
+		"lng": -72.7475553,
+    "url": "http://anytimefitness.com/gyms/2136/terms-of-use"
+  },
+  {
+    "name": "West Hartford Yoga",
+    "address": "23 Brook Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7231707,
+		"lng": -72.7365047,
+    "url": "http://www.westhartfordyoga.com/"
+  },
+  {
+    "name": "New York Sports Club",
+    "address": "65 Memorial Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.759637,
+		"lng": -72.7422184,
+    "url": "https://www.mysportsclubs.com/studio/New%20York/West%20Hartford"
+  },
+  {
+    "name": "MDC Reservoir",
+    "address": "Farmington Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7592164,
+		"lng": -72.7532617,
+    "url": "http://www.themdc.com/recreation-areas/reservoirs"
+  },
+  {
+    "name": "Westmoor Park",
+    "address": "119 Flagg Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.782476,
+		"lng": -72.7616597,
+    "url": "http://www.westmoorpark.org/"
+  },
+  {
+    "name": "Elizabeth Park",
+    "address": "1561 Asylum Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7762701,
+		"lng": -72.7203422,
+    "url": "http://elizabethparkct.org/"
+  },
+  {
+    "name": "Jewish Community Center",
+    "address": "335 Bloomfield Avenue",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.8006572,
+		"lng": -72.7279642,
+    "url": "http://www.mandelljcc.org/"
+  },
+  {
+    "name": "West Hartford Senior Center",
+    "address": "15 Starkel Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.78738,
+		"lng": -72.7475677,
+    "url": "https://www.westhartfordct.gov/gov/departments/leisure/senior_centers/default.asp"
+  },
+  {
+    "name": "Hartford Golf Club",
+    "address": "134 Norwood Road",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7961012,
+		"lng": -72.729543,
+    "url": "http://www.hartfordgolfclub.org/Club/Scripts/Home/home.asp"
+  },
+  {
+    "name": "Rockledge Public Golf Club",
+    "address": "289 South Main Street",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.7420871,
+		"lng": -72.7473037,
+    "url": "http://www.golfrockledge.com/"
+  },
+  {
+    "name": "Tumble Brook Country Club",
+    "address": "376 Simsbury Road",
+    "city": "Bloomfield",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.8103438,
+		"lng": -72.7589114,
+    "url": "http://tumblebrookcc.clubsoftlinks.com/home"
+  },
+  {
+    "name": "Wampanoag Country Club",
+    "address": "60 Wampanoag Drive",
+    "city": "West Hartford",
+    "state": "CT",
+    "categories": ["Fitness/Recreation"],
+    "lat": 41.8003997,
+		"lng": -72.7575917,
+    "url": "https://www.wampanoagcc.com/"
   }
 ]
