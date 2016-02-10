@@ -2,29 +2,64 @@
   <span class="heading-scryer" data-scry="#floorplans-header"></span><br/>
   Floor Plans
 </h2>
-<figure class="section--hero hero_simplex" id="floorplans-header" style="background-image: url('assets/img/hero-kitchen_expose.jpg');">
-  <ul class="popups-list">
-    <li class="popups-list__item popup not-active" id="popup-a">
-      <div class="popup__content">Stainless steel appliances</div>
-      <div class="popup__toggle"></div>
-    </li>
-    <li class="popups-list__item popup not-active" id="popup-b">
-      <div class="popup__content">Quartz-stone island</div>
-      <div class="popup__toggle"></div>
-    </li>
-    <li class="popups-list__item popup not-active" id="popup-c">
-      <div class="popup__content">Granite countertops</div>
-      <div class="popup__toggle"></div>
-    </li>
-    <li class="popups-list__item popup not-active" id="popup-d">
-      <div class="popup__content">Tile backsplash</div>
-      <div class="popup__toggle"></div>
-    </li>
-    <li class="popups-list__item popup not-active" id="popup-e">
-      <div class="popup__content">Custom built-in wine rack</div>
-      <div class="popup__toggle"></div>
-    </li>
-  </ul>
+<figure class="section--hero carousel" id="about-header">
+  <div class="carousel--wrapper">
+    <ul class="carousel--track">
+      <li class="carousel--slide">
+        <figure class="section--hero hero_simplex" id="floorplans-header" style="background-image: url('assets/img/hero-kitchen_expose.jpg');">
+          <ul class="popups-list">
+            <li class="popups-list__item popup not-active" id="popup-a">
+              <div class="popup__content">Stainless steel appliances</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-b">
+              <div class="popup__content">Quartz-stone island</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-c">
+              <div class="popup__content">Granite countertops</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-d">
+              <div class="popup__content">Tile backsplash</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-e">
+              <div class="popup__content">Custom built-in wine rack</div>
+              <div class="popup__toggle"></div>
+            </li>
+          </ul>
+        </figure>
+      </li>
+      <li class="carousel--slide">
+        <figure class="section--hero hero_simplex" id="floorplans-header" style="background-image: url('assets/img/carousel/rendering-bathroom.jpg'); background-position: 0 30%;">
+          <ul class="popups-list">
+            <li class="popups-list__item popup not-active" id="popup-f">
+              <div class="popup__content">Soaking tubs</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-g">
+              <div class="popup__content">Moen<sup>&reg;</sup> fixtures</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-h">
+              <div class="popup__content">Expansive mirror</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-i">
+              <div class="popup__content">Quartz countertops</div>
+              <div class="popup__toggle"></div>
+            </li>
+            <li class="popups-list__item popup not-active" id="popup-j">
+              <div class="popup__content">Ceramic wall tiles</div>
+              <div class="popup__toggle"></div>
+            </li>
+          </ul>
+        </figure>
+      </li>
+    </ul>
+   </div>
+  <div class="carousel--bullets"></div>
 </figure>
 <div class="floorplansTable">
   <form class="floorplansTable--options">
@@ -34,7 +69,7 @@
   </form>
   <div class="floorplansTable--table table not-selective">
     <div class="table--row row_head">
-      <div class="table--cell cell_head column col-1">Residence</div>
+      <div class="table--cell cell_head column col-1">Floor Plan*</div>
       <div class="table--cell cell_head column col-2">Bedrooms</div>
       <div class="table--cell cell_head column col-3">Bathroom</div>
       <div class="table--cell cell_head column col-4">Sq<i>uare</i> F<i>ee</i>t</div>
@@ -48,5 +83,6 @@
     </div>
     {% endfor %}
   </div>
+   <p class="floorplansTable--disclaimer">* These floor plans represent the majority of the floor plans that Bishops Place offers. To check on the availability of a plan, simply fill out the contact form below or call our leasing office at 860.519.5540. When inquiring about a unit please specify the representative floor plan number(s) that suit your needs.</p>
 </div>
 

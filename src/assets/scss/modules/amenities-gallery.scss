@@ -44,7 +44,7 @@
 }
 .amenity-card--courtyard {
   background-position: right 58%;
-  background-size: auto 210%;
+  background-size: cover 210%;
 }
 .amenity-card--pet-friendly {
   background-position: center center;
@@ -52,7 +52,7 @@
 }
 .amenity-card--fitness_center {
   background-position: left top;
-  background-size: auto 180%;
+  background-size: cover 180%;
 }
 
 .amenity-card__title {
@@ -88,6 +88,15 @@
     font-weight: 500;
     letter-spacing: 0.50px;
     line-height: 1.5em;
+  }
+}
+
+@media (max-width:768px) {
+  .amenity-card__title {
+    opacity: 0;
+  }
+  .amenity-card__caption {
+    transform: translateY(0);
   }
 }
 

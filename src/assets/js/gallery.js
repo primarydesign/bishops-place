@@ -9,7 +9,7 @@
 
   var Expose = carousel.glide({
     type: 'carousel',
-    autoplay: false,
+    autoplay: 4000,
     classes: {
       base: "gallery-expose__carousel",
       wrapper: "gallery-expose__wrapper",

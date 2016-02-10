@@ -7,7 +7,8 @@
     "url": "",
     "lat": 41.786806,
     "lng": -72.745384,
-    "categories": ["home"]
+    "categories": ["home"],
+    "zIndex": 9999
   },
   {
     "name": "St. Francis Hospital",
@@ -28,6 +29,7 @@
     "lat": 41.7544432,
 		"lng": -72.6816073,
     "url": "http://www.harthosp.org/"
+      
   },
   {
     "name": "UConn Health",
@@ -384,7 +386,7 @@
     "address": "336 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "categories": ["Services"],
+    "categories": ["Hospitals"],
     "lat": 41.7844661,
 		"lng": -72.7482375,
     "url": "http://www.hartfordmedicalgroup.com/"
@@ -394,7 +396,7 @@
     "address": "95 Woodland St",
     "city": "West Hartford",
     "state": "CT",
-    "categories": ["Services"],
+    "categories": ["Hospitals"],
     "lat": 41.7737059,
 		"lng": -72.7000766,
     "url": "http://www.stfranciscare.org/Content.aspx?id=4294970901"

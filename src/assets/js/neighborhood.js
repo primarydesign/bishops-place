@@ -13,7 +13,7 @@
   };
   var NeighborhoodMap = new Mapster('map-canvas', options, Attractions);
   window.NMAP = NeighborhoodMap;
-
+    
   /**************************
     Interface Functionality
   **************************/

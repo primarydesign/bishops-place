@@ -62,7 +62,7 @@ $popup-size: 25px;
 
 .popup__content {
   min-height: $popup-size * 1.5;
-  padding: 8px 8px;
+  padding: 8px;
   padding-right: $popup-size + 4px;
   position: absolute;
   top: 0;right: 0;
@@ -72,6 +72,7 @@ $popup-size: 25px;
   font-weight: 300;
   letter-spacing: 0.30px;
   text-transform: uppercase;
+  white-space:  normal;
   .popup:not(:hover) & {
     display: none;
   }
@@ -79,7 +80,6 @@ $popup-size: 25px;
     display: block;
   }
 }
-
 
 #popup-a {
   top: 21%;
@@ -100,4 +100,27 @@ $popup-size: 25px;
 #popup-e {
   top: 75%;
   left: 65%;
+}
+
+/* Bathroom */
+
+#popup-f {
+  top: 80%;
+  left: 35%;
+}
+#popup-g {
+  top: 5%;
+  left: 53%;
+}
+#popup-h {
+  top: 15%;
+  left: 90%;
+}
+#popup-i {
+  top: 87%;
+  left: 72%;
+}
+#popup-j {
+  top: 35%;
+  left: 45%;
 }

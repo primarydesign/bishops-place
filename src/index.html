@@ -35,6 +35,7 @@
             city: "{{ attr.city }}",
             state: "{{ attr.state }}",
             url: "{{ attr.url }}",
+          {% if attr.zIndex %}zIndex: {{ attr.zIndex }}, {% endif %}
             categories: [{% for cat in attr.categories %}"{{cat}}"{{ "," if not loop.last }}{% endfor %}],
             icon: {
               url: 'assets/img/map/marker-{{ attr.categories[0] | filename }}.png',

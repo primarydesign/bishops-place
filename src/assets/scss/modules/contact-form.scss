@@ -98,6 +98,92 @@
   padding: 8px;
 }
 
+#movein {
+  height: 30px;
+  background: #fff;
+  border-radius: 0px;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+  cursor: pointer;
+  outline: none;
+  color: $gray;
+  font-size: .8em;
+@media (min-width: $mobile-min-width) {
+  display: inline-block;
+  width: 160px;
+  }
+}
+#apttype {
+  display: block;
+  padding-bottom: 20px;
+  border: none;
+  text-align: center;
+  // background: rgba(salmon, .2);
+label {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 10px;
+  padding-left: 28px;
+  position: relative;
+  vertical-align: middle;
+  text-align: left;
+}
+.checkbox {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-40%);
+  width: 20px;
+  border: 1px solid $gray;
+  border-radius: 50px;
+  background: #ffffff;
+}
+input[checked] ~ .checkbox::before {
+  box-sizing: border-box;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;left: 0;
+  width: 100%;
+  background-color: $blue;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+input.invalid ~ .checkbox {
+  border-color: red;
+  &::before {
+    background-color: red;
+  }
+}
+.label {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  color: $gray;
+  font: $serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  line-height: 35px;
+}
+.field {
+  display: none;
+}
+@media(min-width: 450px) {
+  height: auto;
+  label {
+    display: inline-block;
+  }
+}
+@media (min-width: $mobile-min-width) {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0 0 20px 0;
+  }
+}
 .contact-form__response {
   display: inline-block;
   margin: 0 auto;
