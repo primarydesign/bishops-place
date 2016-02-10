@@ -1,44 +1,80 @@
 [
   {
-    "residence": "101",
+    "residence": "1",
     "bedrooms": 2,
     "bathrooms": 2,
     "squareft": 1188
   },
   {
-    "residence": "103",
+    "residence": "2",
     "bedrooms": 1,
     "bathrooms": 1,
     "squareft": 787
   },
   {
-    "residence": "114",
+    "residence": "3",
     "bedrooms": 1,
     "bathrooms": 1,
     "squareft": 872
   },
   {
-    "residence": "212",
+    "residence": "4",
     "bedrooms": 2,
     "bathrooms": 2,
     "squareft": 1026
   },
   {
-    "residence": "315",
+    "residence": "5",
     "bedrooms": 0,
     "bathrooms": 1,
     "squareft": 488
   },
   {
-    "residence": "318",
+    "residence": "6",
     "bedrooms": 1,
     "bathrooms": 1,
     "squareft": 684
   },
   {
-    "residence": "320",
+    "residence": "7",
     "bedrooms": 1,
     "bathrooms": 1,
     "squareft": 819
+  },
+  {
+    "residence": "8",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
+  },
+  {
+    "residence": "9",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
+  },
+  {
+    "residence": "10",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
+  },
+  {
+    "residence": "11",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
+  },
+  {
+    "residence": "12",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
+  },
+  {
+    "residence": "13",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareft": 684
   }
 ]
