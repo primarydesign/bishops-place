@@ -13,7 +13,7 @@
   };
   var NeighborhoodMap = new Mapster('map-canvas', options, Attractions);
   window.NMAP = NeighborhoodMap;
-    
+
   /**************************
     Interface Functionality
   **************************/
@@ -66,6 +66,7 @@
       }
     });
     /* update map markers */
+    NeighborhoodMap.zoom(13);
     NeighborhoodMap.center(BishopsPlace);
     if (self.hasClass('is-selected')) {
       NeighborhoodMap.eachMarker(function() {
@@ -87,6 +88,7 @@
     var match = $(this);
     var name = match.data('name');
     var latlng = match.attr('data-latlng').split(',');
+    NeighborhoodMap.zoom(16);
     NeighborhoodMap.center({
       lat: parseFloat(latlng[0]),
       lng: parseFloat(latlng[1])
