@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  top: 0;left: 50%;
+  top: 0;
   transform: translate(-50%, 0);
   width: 100%;
   z-index: 5;
@@ -10,8 +10,15 @@
   }
 }
 .navbar--nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
   font-size: 0;
+  @media (max-width:768px) {
+    display: none;
+  }
 }
 .navbar--nav:before {
   content: '';
@@ -53,8 +60,10 @@
   height: auto;
   padding: 20px;
   position: relative;
+  top: 0;
   width: 180px;
   background-color: rgba($gray, 0.1);
+  transition: all 0.5s;
   &:before {
     content: '';
     height: 100%;
@@ -69,4 +78,36 @@
     width: 100%;
     z-index: 1;
   }
+}
+
+/* Animated Nav */
+
+.ha-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+    max-width: 1160px;
+	padding: 0;
+	z-index: 50;
+	transition: all 0.5s;
+    overflow: hidden;
+    -webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+/* Individual states */
+
+.ha-header-large {
+	height: 150px;
+}
+
+.ha-header-small {
+	height: 40px;
+}
+
+.ha-header-small .navbar--brand   {
+    padding: 52px;
+    top: 17px;
+	transition: all 0.5s;
 }

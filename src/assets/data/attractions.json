@@ -15,7 +15,7 @@
     "address": "114 Woodland Street",
     "city": "Hartford",
     "state": "CT",
-    "categories": ["Hospitals"],
+    "categories": ["Health/Wellness"],
     "lat": 41.7750753,
 		"lng": -72.7015951,
     "url": "http://www.stfranciscare.org/"
@@ -25,7 +25,7 @@
     "address": "80 Seymour Street",
     "city": "Hartford",
     "state": "CT",
-    "categories": ["Hospitals"],
+    "categories": ["Health/Wellness"],
     "lat": 41.7544432,
 		"lng": -72.6816073,
     "url": "http://www.harthosp.org/"
@@ -36,7 +36,7 @@
     "address": "263 Farmington Avenue",
     "city": "Farmington",
     "state": "CT",
-    "categories": ["Hospitals"],
+    "categories": ["Health/Wellness"],
     "lat": 41.7308025,
 		"lng": -72.7924731,
     "url": "http://www.uchc.edu/"
@@ -386,7 +386,7 @@
     "address": "336 North Main Street",
     "city": "West Hartford",
     "state": "CT",
-    "categories": ["Hospitals"],
+    "categories": ["Health/Wellness"],
     "lat": 41.7844661,
 		"lng": -72.7482375,
     "url": "http://www.hartfordmedicalgroup.com/"
@@ -396,7 +396,7 @@
     "address": "95 Woodland St",
     "city": "West Hartford",
     "state": "CT",
-    "categories": ["Hospitals"],
+    "categories": ["Health/Wellness"],
     "lat": 41.7737059,
 		"lng": -72.7000766,
     "url": "http://www.stfranciscare.org/Content.aspx?id=4294970901"
