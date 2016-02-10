@@ -4,6 +4,16 @@
   var movlinks = $('.mobile-nav--link');
   var movPanel = $('#cbp-spmenu-s1');
   var movBar = $('.navbar--mobile');
+  var navbar = $('.navbar');
+
+  navbar.headroom({
+    offset: navbar.height(),
+    tolerance: '100px',
+    classes: {
+      top: 'is-top',
+      notTop: 'not-top'
+    }
+  });
 
   navlinks.add('.heading-scryer').on('click', function(event) {
     event.preventDefault();

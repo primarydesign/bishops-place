@@ -83,30 +83,28 @@
 /* Animated Nav */
 
 .ha-header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-    max-width: 1160px;
-	padding: 0;
-	z-index: 50;
-	transition: all 0.5s;
-    overflow: hidden;
-    -webkit-transform: translateY(0%);
-	-moz-transform: translateY(0%);
-	transform: translateY(0%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1160px;
+  padding: 0;
+  z-index: 50;
+  transition: all 500ms;
+  overflow: hidden;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-/* Individual states */
-
-.ha-header-large {
+.navbar.is-top {
 	height: 150px;
 }
 
-.ha-header-small {
+.navbar.not-top {
 	height: 40px;
 }
 
-.ha-header-small .navbar--brand   {
+.navbar.not-top .navbar--brand   {
     padding: 52px;
     top: 17px;
 	transition: all 0.5s;
