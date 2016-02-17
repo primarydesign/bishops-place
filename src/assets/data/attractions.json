@@ -97,8 +97,8 @@
     "city": "West Hartford",
     "state": "CT",
     "categories": ["Groceries/Pharmacy"],
-    "lat": 42.2191223,
-		"lng": -72.6478662,
+    "lat": 41.7838672,
+		"lng": -72.7475675,
     "url": "http://www.walgreens.com/locator/walgreens-324+n+main+st-west+hartford-ct-06117/id=1826"
   },
   {
@@ -347,8 +347,8 @@
     "city": "West Hartford",
     "state": "CT",
     "categories": ["Services"],
-    "lat": 41.7876549,
-		"lng": -72.7650062,
+    "lat": 41.786416,
+		"lng": -72.7458939,
     "url": "https://tools.usps.com/go/POLocatorDetailsAction!input.action?locationTypeQ=all&address=06117&radius=20&locationType=po&locationID=1434077&locationName=BISHOPS+CORNER&address2=&address1=12+CROSSROADS+PLZ&city=WEST+HARTFORD&state=CT&zip5=06117&zip4=9998&tollFree=800-ASK-USPS%26reg%3B%26nbsp%3B%28800-275-8777%29&fax=860-231-2895&tAddress=&tAddress1Ams=&tAddress2Ams=&tCityAms=&tStateAms=&tZipAms=&tCarrierRouteAms=&latitude=41.786246&longitude=-72.745593&sWithin=20&&&&&&&&&"
   },
   {
@@ -372,13 +372,13 @@
     "url": "http://www.massageenvy.com/clinics/CT/West-Hartford.aspx"
   },
   {
-    "name": "Noah Webster Public Library",
-    "address": "20 South Main Street",
+    "name": "Bishops Corner Public Library",
+    "address": "15 Starkel Rd",
     "city": "West Hartford",
     "state": "CT",
     "categories": ["Services"],
-    "lat": 41.7605936,
-		"lng": -72.7434691,
+    "lat": 41.787465,
+		"lng": -72.7475434,
     "url": "http://www.westhartfordlibrary.org/about/hours"
   },
   {
@@ -393,12 +393,12 @@
   },
   {
     "name": "St. Francis Care Medical Group",
-    "address": "95 Woodland St",
+    "address": "345 North Main Street",
     "city": "West Hartford",
     "state": "CT",
     "categories": ["Health/Wellness"],
-    "lat": 41.7737059,
-		"lng": -72.7000766,
+    "lat": 41.7850151,
+		"lng": -72.7503467,
     "url": "http://www.stfranciscare.org/Content.aspx?id=4294970901"
   },
   {
@@ -422,13 +422,13 @@
     "url": "http://www.tdbank.com/"
   },
   {
-    "name": "People's United Bank",
+    "name": "Peoples United Bank",
     "address": "714 North Main Street",
     "city": "West Hartford",
     "state": "CT",
     "categories": ["Services"],
-    "lat": 41.7870069,
-		"lng": -72.7469625,
+    "lat": 41.7240666,
+	   "lng": -72.9670144,
     "url": "https://www.peoples.com/portal/site/peoples/"
   },
   {
@@ -462,7 +462,7 @@
     "url": "https://www.bankofamerica.com/online-banking/bank-atm-locations.go"
   },
   {
-    "name": "Criterion Cinemas",
+    "name": "Criterion Bowtie Cinema",
     "address": "42 South Main Streeet",
     "city": "West Hartford",
     "state": "CT",

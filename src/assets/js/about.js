@@ -2,7 +2,7 @@
 
   $('.carousel').glide({
     type: 'carousel',
-    autoplay: false,
+    autoplay: 4000,
     classes: {
       base: "carousel",
       wrapper: "carousel--wrapper",
