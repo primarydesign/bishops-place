@@ -16,4 +16,6 @@ $trans-ui: 300ms ease;
   position: absolute;
   font-family: $serif;
   letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

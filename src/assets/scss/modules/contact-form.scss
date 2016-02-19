@@ -21,14 +21,16 @@
   padding: 30px;
   color: rgba($gray, 0.9);
   font-family: $serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
   background-color: rgba($gray, 0.2);
   background-image: url('../img/tile-bishops-b-gray.gif');
   background-size: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   small {
     font-size: 0.6em;
     vertical-align: middle;

@@ -51,9 +51,9 @@ body.is-locked {
 
 .page-footer {
   @extend %bishops-pattern;
-  padding: 50px 25px;
+  padding: 50px 25px 15px;
   position: relative;
-  text-align: center;
+  text-align: left;
   background-color: $gray;
   background-image: url('../img/tile-bishops-b-dark.gif');
   background-size: 75px;
@@ -63,48 +63,64 @@ body.is-locked {
 }
 .page-footer__heading {
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: $serif;
 }
-.page-footer__contact {
+.page-footer__list-heading {
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    font-family: $serif;
+    font-size: .8em !important;
+    line-height: 2em !important;
+}
+.page-footer__contact, .page-footer__address {
   margin-top: 6px;
   color: #ffffff;
+  float: left;
+  padding: 20px 60px 30px 0;
   li {
     display: block;
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: normal;
     font-weight: 300;
+    line-height: 1.4em;
     letter-spacing: 0.5px;
     vertical-align: middle;
   }
-  small {
-    display: inline-block;
-    font-size: 0.6em;
-    vertical-align: middle;
+  @media (max-width:480px) {
+    padding: 20px 0px 20px 0;
   }
 }
 .page-footer__legal {
-  display: inline-block;
-  margin-top: 10px;
   color: #ffffff;
   font-size: 0.65em;
+  padding-right: 15px;
+  @media (max-width:640px) {
+    padding-bottom: 20px;
+    display: inline-block;
+  }
 }
 .page-footer__eho {
-  display: block;
-  height: 20px;
-  margin: 20px auto 0;
+  height: 15px;
+  float: right
 }
 .page-footer__attribution {
   display: inline-block;
-  position: absolute;
-  bottom: 10px;left: 10px;
+  position: relative;
+  width: 100%;
+
   a {
     color: #ffffff;
     font-family: $sans-serif;
-    font-size: 0.70rem;
+    font-size: 0.60rem;
     font-weight: 300;
-    letter-spacing: 1px !important;
+    letter-spacing: 2px !important;
     text-transform: uppercase;
-  }
+      @media (max-width:640px) {
+        display: inline-block;
+        clear: both;
+      }
+   }
 }

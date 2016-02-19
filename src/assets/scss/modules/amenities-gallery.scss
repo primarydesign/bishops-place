@@ -1,3 +1,6 @@
+#amenities {
+    padding-top: 30px;
+}
 .amenities-gallery {}
 .gallery__track {
   display: flex;
@@ -68,6 +71,8 @@
   letter-spacing: 0.6px;
   text-transform: uppercase;
   transition: opacity 200ms ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .amenity-card__caption {
   @extend %valign-text;

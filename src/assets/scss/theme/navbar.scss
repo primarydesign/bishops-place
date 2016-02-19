@@ -50,6 +50,8 @@
   letter-spacing: .025rem;
   line-height: 40px;
   text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     @media (min-width:769px) and (max-width: 900px) {
         font-size: .7em;
         font-weight: 400;
