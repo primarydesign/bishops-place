@@ -5,9 +5,9 @@ if (isset($_POST)) {
 	$name = $_POST['name'];
 	$phone = $_POST['phone'];
 	$email = $_POST['email'];
-    $cmmnt = $_POST['message'];
-    $aptType = $_POST['aptType'];
-    $moveIn = $_POST['moveIn'];
+  $cmmnt = $_POST['message'];
+  $atype = $_POST['apttype'];
+  $moveIn = $_POST['movein'];
 
 	$clearance = 0;
 
@@ -36,9 +36,9 @@ if (isset($_POST)) {
 		$message .= "Name: " . $name . "\n";
 		$message .= "Phone: " . $phone . "\n";
 		$message .= "Email: " . $email . "\n";
-        foreach ($aptType as $key){$message .= "Apt Type: " . $aptType[$key] . "\n";} 
-        $message .= "Move-in Date: " . $moveIn . "\n";
-        $message .= "Message: " . $cmmnt . "\n";
+    // $message .= "Apt. Type: " . implode(", ", $atype) . "\n";
+    $message .= "Move-in Date: " . $moveIn . "\n";
+    $message .= "Message: " . $cmmnt . "\n";
 
 		if( mail($address, $subject, $message) ) {
 			echo "Successful submission from " . $_SERVER['HTTP_HOST'];
