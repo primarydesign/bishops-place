@@ -5,7 +5,9 @@ if (isset($_POST)) {
 	$name = $_POST['name'];
 	$phone = $_POST['phone'];
 	$email = $_POST['email'];
-  $cmmnt = $_POST['message'];
+    $cmmnt = $_POST['message'];
+    $aptType = $_POST['aptType'];
+    $moveIn = $_POST['moveIn'];
 
 	$clearance = 0;
 
@@ -29,12 +31,14 @@ if (isset($_POST)) {
 
 		// $address = "contact@liveatbishopsplace.com";
 		$address = "mitchell@primarydesign.com";
-		$subject = "User Submission";
+		$subject = "New Form Submission on liveatbishopsplce.com";
 		$message = "User Submission:\n";
 		$message .= "Name: " . $name . "\n";
 		$message .= "Phone: " . $phone . "\n";
 		$message .= "Email: " . $email . "\n";
-    $message .= "Message: " . $cmmnt . "\n";
+        foreach ($aptType as $key){$message .= "Apt Type: " . $aptType[$key] . "\n";} 
+        $message .= "Move-in Date: " . $moveIn . "\n";
+        $message .= "Message: " . $cmmnt . "\n";
 
 		if( mail($address, $subject, $message) ) {
 			echo "Successful submission from " . $_SERVER['HTTP_HOST'];
