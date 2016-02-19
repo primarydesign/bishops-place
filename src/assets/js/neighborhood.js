@@ -60,7 +60,8 @@
         if (matches.hasClass('is-open')) {
           matches.find('ul').slimScroll({
             height: '100%',
-            wheelStep: 10
+            wheelStep: 10,
+            alwaysVisible: true
           });
         }
       }
