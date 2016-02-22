@@ -11,15 +11,16 @@
 .neighborhood-map__canvas {
   position: relative;
   width: 100%;
-  height: 60vh;
   max-height: $map-maxheight;
   position: relative;
   @media (max-width: 699px) {
     display: block;
+    height: 40vh;
     width: 100%;
   }
   @media (min-width: 700px) {
     display: inline-block;
+    height: 60vh;
     vertical-align: top;
     width: calc(100% - 275px);
   }
