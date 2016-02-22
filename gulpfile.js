@@ -80,9 +80,9 @@ gulp.task('scripts', function() {
   return gulp.src('./src/assets/js/**/*.js')
   .pipe(plumber())
   .pipe(souremaps.init())
+  .pipe(souremaps.write())
   .pipe(concat('index.js'))
   .pipe(uglify())
-  .pipe(souremaps.write())
   .pipe(gulp.dest('./app/assets/js/'))
   .pipe(browser.stream());
 });

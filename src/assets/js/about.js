@@ -1,6 +1,6 @@
 (function(window, $, undefined){$(document).ready(function() {
 
-  $('.carousel').glide({
+$('.carousel').glide({
     type: 'carousel',
     autoplay: 4000,
     classes: {
@@ -21,4 +21,4 @@
     }
   });
 
-})}(window, jQuery));
+});}(window, jQuery));
