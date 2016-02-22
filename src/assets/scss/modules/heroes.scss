@@ -11,11 +11,19 @@ $trans-ui: 300ms ease;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+#amenities-header {
+  min-height: 400px;
+}
 #amenities-hero-caption {
-  bottom: 40px;left: 40px;
+  bottom: 40px;left: 0px;
   position: absolute;
   font-family: $serif;
+  font-size: 1.25em;
   letter-spacing: 1.5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media (min-width: 450px) {
+    bottom: 40px;left: 40px;
+    font-size: 1.75em;
+  }
 }
