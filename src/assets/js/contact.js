@@ -2,6 +2,9 @@
 
   var inputs = document.querySelectorAll('.contactForm__input');
   var submit = document.querySelectorAll('.contactForm__submit');
+  var moveIn = document.querySelector('#contact--movein');
+
+  generateMonths(moveIn);
 
   var Patterns = {};
   Patterns['email'] = {
@@ -75,5 +78,25 @@
   function closeForm() {
     $('.contact-form').html('<span class="contactForm__response">Thank you,<br/> Someone from our leasing staff <br/>will contact you soon.</span>');
   }
+
+  function generateMonths(select) {
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var optionsFragment = document.createDocumentFragment();
+    var today = new Date();
+    var month = today.getMonth();
+    var option, m, i = 0;
+
+    for (; i < 12; i++) {
+      m = (today.getFullYear() < 2016)
+        ? i
+        : i + month;
+      if (m > 11) m -= 12;
+      option = document.createElement('option');
+      option.setAttribute('value', months[m]);
+      option.textContent = months[m];
+      optionsFragment.appendChild(option);
+    }
+    select.appendChild(optionsFragment);
+}
 
 });}(window, jQuery));
