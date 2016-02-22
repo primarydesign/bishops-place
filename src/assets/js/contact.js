@@ -18,11 +18,11 @@
   };
 
   for(var i = 0; i < inputs.length; i++) {
-    if (inputs[i].getAttribute('checkbox')) {
+    if (inputs[i].getAttribute('type') === "checkbox") {
       inputs[i].addEventListener('change', function() {
         var fieldset = this.getAttribute('data-fieldset');
         if (fieldset) {
-          validateFieldset('#' + fieldset);
+          validateFieldset(fieldset);
         }
       });
     } else {
@@ -65,16 +65,19 @@
 
   function validateFieldset(selector) {
     var fieldset = document.querySelector('#' + selector);
-    var clearance, i = 0;
+    var checked = i = 0;
     for (i; i < fieldset.elements.length; i++) {
-      if (!fieldset.elements[i].hasAttribute('checked')) ++clearance;
+      if (fieldset.elements[i].hasAttribute('checked')) {
+        ++checked;
+      }
     }
-    if (clearance === 0) {
+    if (eval(checked + fieldset.getAttribute('data-required'))) {
       fieldset.removeAttribute('data-error');
+      return 0;
     } else {
-      fieldset.setAttribute('data-error');
+      fieldset.setAttribute('data-error', true);
+      return 1;
     }
-    return clearance;
   }
 
   function reportError(input, errorMessage) {
