@@ -2,6 +2,7 @@
 
   var inputs = document.querySelectorAll('.contactForm__input');
   var submit = document.querySelectorAll('.contactForm__submit');
+  var checks = document.querySelectorAll('.contactForm__checkbox');
   var moveIn = document.querySelector('#contact--movein');
 
   generateMonths(moveIn);
@@ -29,6 +30,11 @@
         validateInput(this);
       });
     }
+  }
+  for(var j = 0; j < checks.length; j++) {
+    checks[j].addEventListener('click', function() {
+      setChecked(this);
+    });
   }
 
   function validateInput(input) {
@@ -61,7 +67,7 @@
     var fieldset = document.querySelector('#' + selector);
     var clearance, i = 0;
     for (i; i < fieldset.elements.length; i++) {
-      if (!fieldset.elements[i].checked) ++clearance;
+      if (!fieldset.elements[i].hasAttribute('checked')) ++clearance;
     }
     if (clearance === 0) {
       fieldset.removeAttribute('data-error');
@@ -97,6 +103,15 @@
       optionsFragment.appendChild(option);
     }
     select.appendChild(optionsFragment);
-}
+  }
+
+  function setChecked(checkbox) {
+    var input = checkbox.previousElementSibling;
+    if (input.hasAttribute('checked')) {
+      input.removeAttribute('checked');
+    } else {
+      input.setAttribute('checked', '');
+    }
+  }
 
 });}(window, jQuery));
