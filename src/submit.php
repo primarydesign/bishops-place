@@ -2,12 +2,12 @@
 
 if (isset($_POST)) {
 
-	$name = $_POST['name'];
-	$phone = $_POST['phone'];
-	$email = $_POST['email'];
-  $cmmnt = $_POST['message'];
-  $atype = $_POST['apttype'];
-  $moveIn = $_POST['movein'];
+	$name = $_POST['Name'];
+	$phone = $_POST['Phone'];
+	$email = $_POST['Email'];
+  $cmmnt = $_POST['Message'];
+  $atype = $_POST['Apartment_Type'];
+  $month = $_POST['Move-In_Date'];
 
 	$clearance = 0;
 
@@ -36,14 +36,14 @@ if (isset($_POST)) {
 		$message .= "Name: " . $name . "\n";
 		$message .= "Phone: " . $phone . "\n";
 		$message .= "Email: " . $email . "\n";
-    // $message .= "Apt. Type: " . implode(", ", $atype) . "\n";
-    $message .= "Move-in Date: " . $moveIn . "\n";
+    $message .= "Move-in Date: " . $month . "\n";
+    $message .= "Apt. Type: " . implode(", ", $atype) . "\n";
     $message .= "Message: " . $cmmnt . "\n";
 
 		if( mail($address, $subject, $message) ) {
-			echo "Successful submission from " . $_SERVER['HTTP_HOST'];
+			// echo "Successful submission from " . $_SERVER['HTTP_HOST'];
 		} else {
-			echo "failure:mailing";
+			// echo "failure:mailing";
 		}
 
 	}/**(submission)**/

@@ -7,20 +7,20 @@
   <div class="contactForm__wrapper">
     <h2 class="contactForm__heading">Interested <small>in</small> living here?</h2>
     <label class="contactForm__field">
-      <!--[if IE 9]><span class="contactForm__label">Name</span><![endif]-->
-      <input class="contactForm__input" id="contact--name" name="name" placeholder="Name" required>
+      <!--[if IE 9]><span class="contactForm__label">Name*</span><![endif]-->
+      <input class="contactForm__input" id="contact--name" name="Name" placeholder="Name*" required>
     </label>
     <label class="contactForm__field">
-      <!--[if IE 9]><span class="contactForm__label">Phone</span><![endif]-->
-      <input type="tel" class="contactForm__input" id="contact--phone" name="phone" placeholder="Phone" data-pattern="phone" required>
+      <!--[if IE 9]><span class="contactForm__label">Phone<*/span><![endif]-->
+      <input type="tel" class="contactForm__input" id="contact--phone" name="Phone" placeholder="Phone*" data-pattern="phone" required>
     </label>
     <label class="contactForm__field">
-      <!--[if IE 9]><span class="contactForm__label">Email</span><![endif]-->
-      <input type="email" class="contactForm__input" id="contact--email" name="email" placeholder="Email" data-pattern="email" required>
+      <!--[if IE 9]><span class="contactForm__label">Email*</span><![endif]-->
+      <input type="email" class="contactForm__input" id="contact--email" name="Email" placeholder="Email*" data-pattern="email" required>
     </label>
     <label class="contactForm__field contactForm__field--select contactForm__field--inline">
-      <select class="contactForm__input contactForm__input--select" name="Move-In Date" id="contact--movein">
-        <option disabled selected>Move-In Date</option>
+      <select class="contactForm__input contactForm__input--select" name="Move-In Date" id="contact--movein" required>
+        <option value="" disabled selected>Move-In Date*</option>
         <option value="Not Sure">Not sure</option>
       </select>
     </label>
@@ -43,7 +43,7 @@
     </fieldset>
     <label class="contactForm__field">
       <!--[if IE 9]><span class="contactForm__label">Message</span><![endif]-->
-      <textarea class="contactForm__input contactForm__input--textarea" id="contact--message" name="message" placeholder="Message"></textarea>
+      <textarea class="contactForm__input contactForm__input--textarea" id="contact--message" name="Message" placeholder="Message"></textarea>
     </label>
     <input type="submit" class="contactForm__submit" value="submit">
   </div>

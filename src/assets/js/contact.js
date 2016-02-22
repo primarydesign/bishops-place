@@ -1,8 +1,8 @@
 (function(window, $, undefined){$(document).ready(function() {
 
   var inputs = document.querySelectorAll('.contactForm__input');
-  var submit = document.querySelectorAll('.contactForm__submit');
   var checks = document.querySelectorAll('.contactForm__checkbox');
+  var submit = document.querySelector('.contactForm__submit');
   var moveIn = document.querySelector('#contact--movein');
 
   generateMonths(moveIn);
@@ -31,11 +31,30 @@
       });
     }
   }
-  for(var j = 0; j < checks.length; j++) {
-    checks[j].addEventListener('click', function() {
-      setChecked(this);
-    });
-  }
+
+  submit.addEventListener('click', function(event) {
+    event.preventDefault();
+    var clearance = 0;
+    for(var i = 0; i < inputs.length; i++) {
+      clearance += validateInput(inputs[i]);
+    }
+    clearance += validateFieldset('contact--type');
+    submit.setAttribute('disabled', true);
+    if (clearance === 0) {
+      console.log($('.contactForm').serialize());
+      $.ajax({
+        type: 'POST',
+        url: 'submit.php',
+        data: $('.contactForm').serialize(),
+        complete: function(response) {
+          console.log(response.responseText);
+        },
+        success: function (data) {
+          closeForm();
+        }
+      });
+    }
+  });
 
   function validateInput(input) {
     var required = input.required;
@@ -67,7 +86,7 @@
     var fieldset = document.querySelector('#' + selector);
     var checked = i = 0;
     for (i; i < fieldset.elements.length; i++) {
-      if (fieldset.elements[i].hasAttribute('checked')) {
+      if (fieldset.elements[i].checked) {
         ++checked;
       }
     }
@@ -106,15 +125,6 @@
       optionsFragment.appendChild(option);
     }
     select.appendChild(optionsFragment);
-  }
-
-  function setChecked(checkbox) {
-    var input = checkbox.previousElementSibling;
-    if (input.hasAttribute('checked')) {
-      input.removeAttribute('checked');
-    } else {
-      input.setAttribute('checked', '');
-    }
   }
 
 });}(window, jQuery));
