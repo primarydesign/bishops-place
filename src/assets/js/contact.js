@@ -41,14 +41,10 @@
     clearance += validateFieldset('contact--type');
     submit.setAttribute('disabled', true);
     if (clearance === 0) {
-      console.log($('.contactForm').serialize());
       $.ajax({
         type: 'POST',
         url: 'submit.php',
         data: $('.contactForm').serialize(),
-        complete: function(response) {
-          console.log(response.responseText);
-        },
         success: function (data) {
           closeForm();
         }
@@ -104,7 +100,7 @@
   }
 
   function closeForm() {
-    $('.contact-form').html('<span class="contactForm__response">Thank you,<br/> Someone from our leasing staff <br/>will contact you soon.</span>');
+    $('.contactForm').html('<span class="contactForm__response">Thank you,<br/> Someone from our leasing staff <br/>will contact you soon.</span>');
   }
 
   function generateMonths(select) {
