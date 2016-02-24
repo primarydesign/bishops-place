@@ -63,7 +63,7 @@
    </div>
   <div class="carousel--bullets"></div>
 </figure>
-<!--
+
 <div class="floorplansTable">
   <form class="floorplansTable--options">
     <label class="floorplansTable--option"><input type="checkbox" name="floorplans" value="0"><div><span>Studio</span></div></label>
@@ -78,7 +78,7 @@
       <div class="table--cell cell_head column col-4">Sq<i>uare</i> F<i>ee</i>t</div>
     </div>
     {% for appt in apartments %}
-    <div class="table--row row_body is-visible" data-br="{{ appt.bedrooms }}" data-ba="{{ appt.bathrooms }}" data-sqft="{{ appt.squareft }}">
+    <div class="table--row row_body is-visible" data-pn="{{ appt.residence }}" data-br="{{ appt.bedrooms }}" data-ba="{{ appt.bathrooms }}" data-sf="{{ appt.squareft }}">
       <div class="table--cell cell_body column col-1">{{ appt.residence }}</div>
       <div class="table--cell cell_body column col-2">{{ appt.bedrooms | beword }}</div>
       <div class="table--cell cell_body column col-3">{{ appt.bathrooms | beword }}</div>
@@ -88,5 +88,5 @@
   </div>
    <p class="floorplansTable--disclaimer">* These floor plans are a sample representation of the apartment types. Please <a class="mobile-nav--link" data-scry="#contact">contact</a> Bishops Place for more available floor plans and rental information.</p>
 </div>
--->
+
 </section>
