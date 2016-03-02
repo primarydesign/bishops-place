@@ -39,6 +39,7 @@
     "gulp-uglify": "^1.5.1",
     "lazypipe": "^1.0.1",
     "require-dir": "^0.3.0",
+    "sort-array": "^1.1.0",
     "stream-browserify": "^2.0.1",
     "yargs": "^3.30.0"
   }

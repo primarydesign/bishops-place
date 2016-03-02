@@ -18,6 +18,7 @@ var render = require('gulp-nunjucks-render');
 var sass = require('gulp-sass');
 var souremaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
+var sortArray = require('sort-array');
 /* configuration */
 var nunjucks = render.nunjucks.configure;
 
@@ -51,7 +52,9 @@ gulp.task('pages', function() {
   return gulp.src('./src/*.html')
     .pipe(plumber())
     .pipe(data(add_data()))
-    .pipe(render())
+    .pipe(render({
+      data: { sort: sortArray }
+    }))
     .pipe(gulp.dest('./app/'))
     .pipe(browser.stream());
 });
