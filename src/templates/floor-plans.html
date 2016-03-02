@@ -78,7 +78,7 @@
       <div class="table--cell cell_head column col-4">Sq<i>uare</i> F<i>ee</i>t</div>
     </div>
     {% for appt in data.sort(apartments, ['bedrooms','residence'], {residence: ["1","2","3","4","5","6","7","8","9","10","11","12","13"]}) %}
-    <div class="table--row row_body is-visible" data-pn="{{ appt.residence }}" data-br="{{ appt.bedrooms }}" data-ba="{{ appt.bathrooms }}" data-sf="{{ appt.squareft }}">
+    <div class="table--row row_body is-visible" data-pn="{{ appt.residence }}" data-br="{{ appt.bedrooms }}" data-ba="{{ appt.bathrooms }}" data-sf="{{ appt.squareft }}" data-or="{{ appt.orientation }}">
       <div class="table--cell cell_body column col-1">{{ appt.residence }}</div>
       <div class="table--cell cell_body column col-2">{{ appt.bedrooms | beword }}</div>
       <div class="table--cell cell_body column col-3">{{ appt.bathrooms | beword }}</div>

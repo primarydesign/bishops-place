@@ -151,13 +151,13 @@ function add_data(file) {
 }
 function Beword(input) {
   switch (input) {
-    case 0:
+    case "0":
       return "studio";
       break;
-    case 1:
+    case "1":
       return "one";
       break;
-    case 2:
+    case "2":
       return "two";
       break;
     default:

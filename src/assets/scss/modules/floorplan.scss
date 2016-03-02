@@ -63,13 +63,35 @@ $border-gray: 1px solid $gray;
   }
 }
 .floorplan-modal__figure {
-  padding: 60px 20px;
+  height: 560px;
+  padding: 20px 20px;
+  text-align: center;
   img {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    max-width: 400px;
+    max-height: 100%;
+    vertical-align: middle;
     width: 100%;
   }
+  img[data-orientation=square] {
+    max-height: 300px;
+    max-width: 550px;
+  }
+  img[data-orientation=portrait] {
+    max-width: 300px;
+  }
+  img[data-orientation=landscape] {
+    max-height: 300px;
+    max-width: 550px;
+  }
+}
+.floorplan-modal__figure:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  vertical-align: middle;
+  width: 0;
 }
 .floorplan-modal__download {
   cursor: pointer;
