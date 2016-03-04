@@ -30,8 +30,8 @@ if (isset($_POST)) {
 	/* submission clear */
 
 		// $address = "contact@liveatbishopsplace.com";
-		$address = "mitchell@primarydesign.com";
-		$subject = "New Form Submission on liveatbishopsplce.com";
+		$address = "contact@liveatbishopsplace.com";
+		$subject = "New Form Submission on liveatbishopsplace.com";
 		$message = "User Submission:\n";
 		$message .= "Name: " . $name . "\n";
 		$message .= "Phone: " . $phone . "\n";
