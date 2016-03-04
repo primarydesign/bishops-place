@@ -22,7 +22,7 @@
   /* Open and Close the Floorplan Modal */
   $('.table--row.row_body').on('click', function() {
     var data = $(this).data();
-    $('.page').append(buildModal(data.pn, data.br, data.ba, data.sf));
+    $('.page').append(buildModal(data.pn, data.br, data.ba, data.sf, data.or));
     $('.floorplan-modal__close').on('click', function() {
       $('.floorplan-modal').remove();
       $('body').removeClass('is-locked');
@@ -40,7 +40,7 @@
    * Constructs a document fragment containing the floorplan modal to be inserted into the DOM
    * @return {document fragment} - the floorplan modal structure
    */
-  function buildModal(id, br, ba, sf) {
+  function buildModal(id, br, ba, sf, or) {
     var bedroomType, bathroomType;
     switch (br) {
       case 0: bedroomType = 'Studio'; break;
@@ -68,8 +68,8 @@
               '<span>' + sf.toLocaleString() + ' Sq. Ft.</span>' +
             '</li>' +
           '</ul>' +
-          '<figure class="floorplan-modal__figure">' +
-            '<img src="assets/img/plans/plan-' + id + '.svg" alt="' + br + 'br | ' + ba + 'ba | ' + sf + ' sq.ft.">' +
+          '<figure class="floorplan-modal__figure" data-bedrooms="' + br + '">' +
+            '<img src="assets/img/plans/plan-' + id + '.svg" data-orientation="' +  or + '" alt="' + br + 'br | ' + ba + 'ba | ' + sf + ' sq.ft.">' +
           '</figure>' +
           '<a class="floorplan-modal__download" href="assets/plans/plan-' + id + '.pdf" target="_blank">Download PDF</a>' +
           '<p class="floorplan-modal__disclaimer">These floor plans are intended for illustrative purposes only and are not to scale; square foot measurements and dimensions are approximate and configurations may vary from unit to unit.</p>' +

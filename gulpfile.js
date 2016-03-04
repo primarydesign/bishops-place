@@ -18,6 +18,7 @@ var render = require('gulp-nunjucks-render');
 var sass = require('gulp-sass');
 var souremaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
+var sortArray = require('sort-array');
 /* configuration */
 var nunjucks = render.nunjucks.configure;
 
@@ -51,7 +52,9 @@ gulp.task('pages', function() {
   return gulp.src('./src/*.html')
     .pipe(plumber())
     .pipe(data(add_data()))
-    .pipe(render())
+    .pipe(render({
+      data: { sort: sortArray }
+    }))
     .pipe(gulp.dest('./app/'))
     .pipe(browser.stream());
 });
@@ -148,13 +151,13 @@ function add_data(file) {
 }
 function Beword(input) {
   switch (input) {
-    case 0:
+    case "0":
       return "studio";
       break;
-    case 1:
+    case "1":
       return "one";
       break;
-    case 2:
+    case "2":
       return "two";
       break;
     default:
